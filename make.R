@@ -10,7 +10,8 @@ knitr::opts_knit$set(base.dir = "docs")
 #make(nicotiana)
 
 
-make(sims)
+#make(sims)
+
 
 
 
@@ -29,16 +30,16 @@ make(sims)
 #   drake::loadd(intended.results[i])
 # }
 
-GetHost <- function() {
-  Sys.sleep(2)
-  return(system("hostname", intern=TRUE))
-}
-
-GetHostAndTree <- function(ntax, number) {
-  phy <- ape::rcoal(ntax)
-  Sys.sleep(2)
-  return(list(tree=phy, host=system("hostname", intern=TRUE), number=number))
-}
+# GetHost <- function() {
+#   Sys.sleep(2)
+#   return(system("hostname", intern=TRUE))
+# }
+#
+# GetHostAndTree <- function(ntax, number) {
+#   phy <- ape::rcoal(ntax)
+#   Sys.sleep(2)
+#   return(list(tree=phy, host=system("hostname", intern=TRUE), number=number))
+# }
 
 #doParallel::registerDoParallel(cl)
 #results <- foreach( number=6:10, ntax=3:5) %dopar% GetHostAndTree(ntax, number)
@@ -97,3 +98,7 @@ GetHostAndTree <- function(ntax, number) {
 # a
 # b
 # c
+
+cl <- StartCluster()
+doParallel::registerDoParallel(cl)
+sim.results = foreach(ntax=3:4, nhybridizations=1:2, tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5) %dopar% DoRunTemplated(ntax, nhybridizations, tree.height, sigma.sq, mu, bt, vh, SE, gamma)

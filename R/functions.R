@@ -20,9 +20,9 @@ DoRun <- function(id, identifier, sets) {
 	x <- sets[id,]
   free.parameters <- strsplit("_", x$free.parameter.lumps)[[1]]
 	hostname <- system("hostname -s", intern=TRUE)
-	phy.graph<-SimulateNetwork(ntax=x['ntax'], nhybridizations=x['nhybridizations'], tree.height=x['tree.height'])
-  tips <- SimulateTips(phy.graph, sigma.sq=x['sigma.sq'], mu=x['mu'], bt=x['bt'], vh=x['vh'], SE=x['SE'], gamma=x['gamma'])
-  result <- BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=x['gamma'], confidence.points=1000)
+	phy.graph<-BMhyb::SimulateNetwork(ntax=x['ntax'], nhybridizations=x['nhybridizations'], tree.height=x['tree.height'])
+  tips <- BMhyb::SimulateTips(phy.graph, sigma.sq=x['sigma.sq'], mu=x['mu'], bt=x['bt'], vh=x['vh'], SE=x['SE'], gamma=x['gamma'])
+  result <- BMhyb::BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=x['gamma'], confidence.points=1000)
   return(result)
 }
 
@@ -31,9 +31,9 @@ DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt,
   #free.parameters <- strsplit("_", free.parameter.lumps)[[1]]
   free.parameters <- c("mu", "sigma.sq")
 	hostname <- system("hostname -s", intern=TRUE)
-	phy.graph<-SimulateNetwork(ntax=ntax, nhybridizations=nhybridizations, tree.height=tree.height)
-  tips <- SimulateTips(phy.graph, sigma.sq=sigma.sq, mu=mu, bt=bt, vh=vh, SE=SE, gamma=gamma)
-  result <- BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=gamma, confidence.points=100, max.steps=2)
+	phy.graph<-BMhyb::SimulateNetwork(ntax=ntax, nhybridizations=nhybridizations, tree.height=tree.height)
+  tips <- BMyhyb::SimulateTips(phy.graph, sigma.sq=sigma.sq, mu=mu, bt=bt, vh=vh, SE=SE, gamma=gamma)
+  result <- BMhyb::BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=gamma, confidence.points=100, max.steps=2)
   result$hostname <- hostname
   return(result)
 }
@@ -81,6 +81,14 @@ StartCluster <- function() {
   }
   cl <- parallel::makeCluster(type="PSOCK", spec=all.machines.spec, rscript="/usr/bin/Rscript")
   return(cl)
+}
+
+GenerateSimResults <- function() {
+  cl <- StartCluster()
+  doParallel::registerDoParallel(cl)
+  sim.results = foreach(ntax=3:4, nhybridizations=1:2, tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5) %dopar% DoRunTemplated(ntax, nhybridizations, tree.height, sigma.sq, mu, bt, vh, SE, gamma)
+  parallel::stopCluster(cl)
+  return(sim.results)
 }
 
 TestCluster <- function(cl) {

@@ -52,6 +52,8 @@ test <- drake_plan(
 )
 
 
+
+
 #     ntax__ = c(3,4),
 #     nhybridizations__ = c(1,2),
 #     tree.height__ = c(1),
@@ -63,9 +65,6 @@ test <- drake_plan(
 #     gamma__ = c(0.5)
 
 sims <- drake_plan(
-  cl = StartCluster(),
-  foo = doParallel::registerDoParallel(cl),
-  sim.results = foreach(ntax=c(3,4), nhybridizations=c(1,2), tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5) %dopar% DoRunTemplated(ntax, nhybridizations, tree.height, sigma.sq, mu, bt, vh, SE, gamma),
-  save(sim.results, drake::file_out("~/Downloads/simresults.rda")),
-  foo2 = parallel::stopCluster(cl)
+  sim.results = GenerateSimResults(),
+  save(sim.results, drake::file_out("simresults.rda"))
 )
