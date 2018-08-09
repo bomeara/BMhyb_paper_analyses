@@ -7,27 +7,27 @@ nicotiana <- drake_plan(
 )
 
 # see https://ropenscilabs.github.io/drake-manual/plans.html
-sims <- drake_plan(
-  #my.cluster <- StartCluster(),
-  sim.results = DoRunTemplated(ntax__, nhybridizations__, tree.height__, sigma.sq__, mu__, bt__, vh__, SE__, gamma__)
-  #,
-  #save(sim.results, file_out("TestSims.rda"))
-)
-
-sims.separated <- evaluate_plan(
-  sims,
-  rules=list(
-    ntax__ = c(3,4),
-    nhybridizations__ = c(1,2),
-    tree.height__ = c(1),
-    sigma.sq__ = c(0.01),
-    mu__ = c(1),
-    bt__ = c(1),
-    vh__ = c(0),
-    SE__ = c(0),
-    gamma__ = c(0.5)
-  )
-)
+# sims <- drake_plan(
+#   #my.cluster <- StartCluster(),
+#   sim.results = DoRunTemplated(ntax__, nhybridizations__, tree.height__, sigma.sq__, mu__, bt__, vh__, SE__, gamma__)
+#   #,
+#   #save(sim.results, file_out("TestSims.rda"))
+# )
+#
+# sims.separated <- evaluate_plan(
+#   sims,
+#   rules=list(
+#     ntax__ = c(3,4),
+#     nhybridizations__ = c(1,2),
+#     tree.height__ = c(1),
+#     sigma.sq__ = c(0.01),
+#     mu__ = c(1),
+#     bt__ = c(1),
+#     vh__ = c(0),
+#     SE__ = c(0),
+#     gamma__ = c(0.5)
+#   )
+# )
 
 # ntax.vector <- c(30, 100)
 # nhybridizations.vector <- c(1, 5, 10)
@@ -44,4 +44,28 @@ sims.separated <- evaluate_plan(
 test <- drake_plan(
   cl = StartCluster(),
   result = TestCluster(cl)
+)
+
+test <- drake_plan(
+  cl = StartCluster(),
+  result = TestCluster(cl)
+)
+
+
+#     ntax__ = c(3,4),
+#     nhybridizations__ = c(1,2),
+#     tree.height__ = c(1),
+#     sigma.sq__ = c(0.01),
+#     mu__ = c(1),
+#     bt__ = c(1),
+#     vh__ = c(0),
+#     SE__ = c(0),
+#     gamma__ = c(0.5)
+
+sims <- drake_plan(
+  cl = StartCluster(),
+  foo = doParallel::registerDoParallel(cl),
+  sim.results = foreach(ntax=c(3,4), nhybridizations=c(1,2), tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5) %dopar% DoRunTemplated(ntax, nhybridizations, tree.height, sigma.sq, mu, bt, vh, SE, gamma),
+  save(sim.results, drake::file_out("~/Downloads/simresults.rda")),
+  foo2 = parallel::stopCluster(cl)
 )

@@ -74,7 +74,7 @@ StartCluster <- function() {
   all.machines.spec <- c()
   for (i in sequence(nrow(cluster.df))) {
     for (j in sequence(cluster.df$ncore[i])) {
-      if(length(all.machines.spec)<12) { # https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28 Hardcoded limit in R on number of connections
+      if(length(all.machines.spec)<110) { # https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28 Hardcoded limit in R on number of connections
         all.machines.spec <- append(all.machines.spec, list(name=cluster.df$machine.name[i]))
       }
     }
@@ -89,4 +89,9 @@ TestCluster <- function(cl) {
   future::plan("cluster", workers = cl)
   load_mtcars_example()
   make(my_plan, parallelism = "future")
+}
+
+GetHost <- function() {
+  Sys.sleep(30)
+  return(system("hostname", intern=TRUE))
 }
