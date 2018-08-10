@@ -28,6 +28,7 @@ DoRun <- function(id, identifier, sets) {
 
 
 DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt, vh, SE, gamma) {
+  library(BMhyb)
   #free.parameters <- strsplit("_", free.parameter.lumps)[[1]]
   free.parameters <- c("mu", "sigma.sq")
 	hostname <- system("hostname -s", intern=TRUE)
@@ -102,4 +103,9 @@ TestCluster <- function(cl) {
 GetHost <- function() {
   Sys.sleep(30)
   return(system("hostname", intern=TRUE))
+}
+
+GetPackages <- function() {
+  Sys.sleep(3)
+  return(cbind(utils::installed.packages(), system("hostname", intern=TRUE)))
 }
