@@ -4,7 +4,7 @@ print(args)
 
 condition.matrix <- expand.grid(ntax=15:30, nhybridizations=1:2, tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5, rep=sequence(3))
 
-base_number <- args[2] + 1
+base_number <- as.numeric(args[2]) + 1
 
 conditions <- condition.matrix[base_number,]
 
