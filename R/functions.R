@@ -33,7 +33,7 @@ DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt,
   free.parameters <- c("mu", "sigma.sq")
 	hostname <- system("hostname -s", intern=TRUE)
 	phy.graph<-BMhyb::SimulateNetwork(ntax=ntax, nhybridizations=nhybridizations, tree.height=tree.height)
-  tips <- BMyhyb::SimulateTips(phy.graph, sigma.sq=sigma.sq, mu=mu, bt=bt, vh=vh, SE=SE, gamma=gamma)
+  tips <- BMhyb::SimulateTips(phy.graph, sigma.sq=sigma.sq, mu=mu, bt=bt, vh=vh, SE=SE, gamma=gamma)
   result <- BMhyb::BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=gamma, confidence.points=100, max.steps=2)
   result$hostname <- hostname
   return(result)
@@ -43,7 +43,7 @@ DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt,
 StartCluster <- function() {
   # http://www.win-vector.com/blog/2016/01/running-r-jobs-quickly-on-many-machines/
   # have to deal with hardcoded 125 limit: https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28
-  machine.names <- c("omearalab13.bio.utk.edu",
+  machine.names <- c("omearashiny1.desktop.utk.edu",
   "omearaclustera.nomad.utk.edu",
   "omearaclusterb.nomad.utk.edu",
   "omearaclusterc.nomad.utk.edu",
@@ -51,7 +51,9 @@ StartCluster <- function() {
   "omearaclustere.nomad.utk.edu",
   "omearaclusterh.nomad.utk.edu",
   "omearaclusteri.nomad.utk.edu",
-  "omearaclusterl.nomad.utk.edu")
+  "omearaclusterl.nomad.utk.edu",
+"omearalab22.nomad.utk.edu", "omearalab9.nomad.utk.edu",
+"omearalab11.nomad.utk.edu")
 
   cluster.df <- data.frame(machine.name=machine.names, ncore=1, mhz=0, stringsAsFactors=FALSE)
   tmp <- parallel::makePSOCKcluster(cluster.df$machine.name,
