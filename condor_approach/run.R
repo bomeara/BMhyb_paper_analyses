@@ -2,7 +2,7 @@ args <- commandArgs(trailingOnly = TRUE)
 print("args")
 print(args)
 
-condition.matrix <- expand.grid(ntax=15:30, nhybridizations=1:2, tree.height=1, sigma.sq=0.01, mu=1, bt=1, vh=0, SE=0, gamma=0.5, rep=sequence(3))
+condition.matrix <- expand.grid(ntax=c(15,30,100), nhybridizations=c(1,2,5), tree.height=1, sigma.sq=0.01, mu=1, bt=c(1,1.2), vh=c(0,1), SE=c(0,1), gamma=0.5, rep=sequence(5))
 
 base_number <- as.numeric(args[2]) + 1
 
