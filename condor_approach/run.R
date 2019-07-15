@@ -23,4 +23,4 @@ DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt,
 
 result <- DoRunTemplated(ntax=conditions$ntax, nhybridizations=conditions$nhybridizations, tree.height=conditions$tree.height, sigma.sq=conditions$sigma.sq, mu=conditions$mu, bt=conditions$bt, vh=conditions$vh, SE=conditions$SE, gamma=conditions$gamma)
 
-save(result, file=paste0("Result_Arg1_", args[1], "_arg2_", args[2], "_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", conditions$SE, "_gamma_", conditions$gamma, ".rda"))
+save(result, conditions, file=paste0("Result_Arg1_", args[1], "_arg2_", args[2], "_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", conditions$SE, "_gamma_", conditions$gamma, ".rda"))
