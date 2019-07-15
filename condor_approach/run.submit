@@ -1,6 +1,6 @@
-log = run_$(Cluster)_$(Process).log
-error = run_$(Cluster)_$(Process).err
-output = run_$(Cluster)_$(Process).out
+log = bmhyb_$(Cluster)_$(Process).log
+error = bmhyb_$(Cluster)_$(Process).err
+output = bmhyb_$(Cluster)_$(Process).out
 
 executable = run.sh
 arguments = $(Cluster) $(Process)
