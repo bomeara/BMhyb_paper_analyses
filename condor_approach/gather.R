@@ -52,8 +52,8 @@ for (file.index in seq_along(relevant.files)) {
     avg.local.results.threshold$source.file <- local.results$source.file[1]
 
     all.results <- plyr::rbind.fill(all.results, local.results)
-    model.averaged.results <- plyr::rbind.fill(model.averaged.results, avg.local.results)
-    model.averaged.results.no.outliers <- plyr::rbind.fill(model.averaged.results.no.outliers, avg.local.results.threshold)
+    model.averaged.results <- plyr::rbind.fill(model.averaged.results, data.frame(avg.local.results))
+    model.averaged.results.no.outliers <- plyr::rbind.fill(model.averaged.results.no.outliers, data.frame(avg.local.results.threshold))
 
   }
 }
