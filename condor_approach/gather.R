@@ -1,3 +1,4 @@
+rm(list=ls())
 library(BMhyb)
 library(dplyr)
 
