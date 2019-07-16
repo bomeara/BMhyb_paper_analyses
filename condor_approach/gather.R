@@ -7,7 +7,7 @@ all.results <- data.frame()
 for (i in sequence(nrow(condition.matrix))) {
   results <- NULL
   conditions <- NULL
-  relevant_file_string <- paste0("_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(conditions$SE,5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda")
+  relevant_file_string <- paste0("_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(as.numeric(conditions$SE),5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda")
   relevant_files <- list.files(pattern=relevant_file_string)
   for (file_index in seq_along(relevant_files)) {
     try(load(relevant_files[file_index]))
