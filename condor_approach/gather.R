@@ -36,12 +36,18 @@ for (file.index in seq_along(relevant.files)) {
     local.results$vh.fixed[which(is.na(local.results$vh))] <- TRUE
     local.results$vh[which(is.na(local.results$vh))] <- 0
 
-    avg.local.results <- apply(local.results[,which(local.results, 2, is.numeric)], 2, stats::weighted.mean, w=local.results$AkaikeWeight)
+    #local.results.numeric <- local.results[,which(!grepl("fixed", colnames(local.results)))]
+    local.results.numeric <- local.results[,which(!grepl("file", colnames(local.results)))]
 
-    local.results.threshold <- local.results[which(local.results$deltaAICc<delta.AICc.threshold),]
+
+    avg.local.results <- apply(local.results.numeric, 2, stats::weighted.mean, w=local.results.numeric$AkaikeWeight)
+    avg.local.results$source.file <- local.results$source.file[1]
+
+    local.results.threshold <- local.results.numeric[which(local.results.numeric$deltaAICc<delta.AICc.threshold),]
     rel.lik <- exp(-0.5* local.results.threshold$deltaAICc)
     local.results.threshold$AkaikeWeight <- rel.lik / sum(rel.lik)
     avg.local.results.threshold <- apply(local.results.threshold[,which(local.results.threshold, 2, is.numeric)], 2, stats::weighted.mean, w=local.results.threshold$AkaikeWeight)
+    avg.local.results.threshold$source.file <- local.results$source.file[1]
 
     all.results <- plyr::rbind.fill(all.results, local.results)
     model.averaged.results <- plyr::rbind.fill(model.averaged.results, avg.local.results)
