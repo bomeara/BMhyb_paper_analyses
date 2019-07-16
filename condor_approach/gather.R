@@ -2,6 +2,10 @@ library(BMhyb)
 library(dplyr)
 
 all.results <- data.frame()
+model.averaged.results <- data.frame()
+model.averaged.results.no.outliers <- data.frame()
+
+delta.AICc.threshold <- 10
 
 relevant.files <- list.files(pattern="Result.*rda")
 for (file.index in seq_along(relevant.files)) {
@@ -19,7 +23,30 @@ for (file.index in seq_along(relevant.files)) {
     rel.lik <- exp(-0.5* local.results$deltaAICc)
     local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
     local.results$source.file <- relevant.files[file.index]
+
+    local.results$SE.fixed <- FALSE
+    local.results$SE.fixed[which(is.na(local.results$SE))] <- TRUE
+    local.results$SE[which(is.na(local.results$SE))] <- 0
+
+    local.results$bt.fixed <- FALSE
+    local.results$bt.fixed[which(is.na(local.results$bt))] <- TRUE
+    local.results$bt[which(is.na(local.results$bt))] <- 1
+
+    local.results$vh.fixed <- FALSE
+    local.results$vh.fixed[which(is.na(local.results$vh))] <- TRUE
+    local.results$vh[which(is.na(local.results$vh))] <- 0
+
+    avg.local.results <- apply(local.results[,which(local.results, 2, is.numeric)], 2, stats::weighted.mean, w=local.results$AkaikeWeight)
+
+    local.results.threshold <- local.results[which(local.results$deltaAICc<delta.AICc.threshold),]
+    rel.lik <- exp(-0.5* local.results.threshold$deltaAICc)
+    local.results.threshold$AkaikeWeight <- rel.lik / sum(rel.lik)
+    avg.local.results.threshold <- apply(local.results.threshold[,which(local.results.threshold, 2, is.numeric)], 2, stats::weighted.mean, w=local.results.threshold$AkaikeWeight)
+
     all.results <- plyr::rbind.fill(all.results, local.results)
+    model.averaged.results <- plyr::rbind.fill(model.averaged.results, avg.local.results)
+    model.averaged.results.no.outliers <- plyr::rbind.fill(model.averaged.results.no.outliers, avg.local.results.threshold)
+
   }
 }
 all.results$SE.fixed <- FALSE
@@ -34,4 +61,4 @@ all.results$vh.fixed <- FALSE
 all.results$vh.fixed[which(is.na(all.results$vh))] <- TRUE
 all.results$vh[which(is.na(all.results$vh))] <- 0
 
-save(all.results, file="Summary.rda")
+save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
