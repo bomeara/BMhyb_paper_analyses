@@ -2,6 +2,9 @@ args <- commandArgs(trailingOnly = TRUE)
 print("args")
 print(args)
 
+setSessionTimeLimit(cpu=12*60*60) # stop a job after 12 hours: could be stalled
+
+
 condition.matrix <- expand.grid(ntax=c(30,100), nhybridizations=c(1,2,5,10), tree.height=50, sigma.sq=0.01, mu=1, bt=c(1,2), vh=c(0,0.1*50*0.01,50*0.01), SE=c(0, 0.1*sqrt(0.01*50), 0.5*sqrt(0.01*50)), gamma=0.5, rep=sequence(100)) #for Vh, zero, as much variance as you get from 10% of evo history, or as much variance as you get from the whole tree. For SE, 10% and half of the variance from BM
 
 base_number <- as.numeric(args[2]) + 1
