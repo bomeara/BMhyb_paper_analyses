@@ -7,7 +7,7 @@ all.results <- data.frame()
 for (i in sequence(nrow(condition.matrix))) {
   results <- NULL
   conditions <- NULL
-  try(load(file=paste0("Result_arg1_", args[1], "_arg2_", args[2], "_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(conditions$SE,5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda"))
+  try(load(file=paste0("Result_arg1_", args[1], "_arg2_", args[2], "_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(conditions$SE,5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda")))
   if(!is.null(results)) {
     local.results <- data.frame()
     for (result.index in seq_along(results)) {
