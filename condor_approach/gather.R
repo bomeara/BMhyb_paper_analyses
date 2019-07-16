@@ -7,18 +7,22 @@ all.results <- data.frame()
 for (i in sequence(nrow(condition.matrix))) {
   results <- NULL
   conditions <- NULL
-  try(load(file=paste0("Result_arg1_", args[1], "_arg2_", args[2], "_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(conditions$SE,5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda")))
-  if(!is.null(results)) {
-    local.results <- data.frame()
-    for (result.index in seq_along(results)) {
-      result <- results[[result.index]]
-      result.params <- c(result$best, conditions)
-      local.results <- plyr::rbind.fill(local.results, result.params)
+  relevant_file_string <- paste0("_ntax_", conditions$ntax, "_nhybridizations_",conditions$nhybridizations, "_treeheight_",conditions$tree.height, "_sigmasq_",conditions$sigma.sq, "_mu_",conditions$mu, "_bt_", conditions$bt, "_vh_", conditions$vh, "_SE_", round(conditions$SE,5), "_gamma_", conditions$gamma,"_rep_", conditions$rep, ".rda")
+  relevant_files <- list.files(pattern=relevant_file_string)
+  for (file_index in seq_along(relevant_files)) {
+    try(load(relevant_files[file_index]))
+    if(!is.null(results)) {
+      local.results <- data.frame()
+      for (result.index in seq_along(results)) {
+        result <- results[[result.index]]
+        result.params <- c(result$best, conditions)
+        local.results <- plyr::rbind.fill(local.results, result.params)
+      }
+      local.results$deltaAICc <- local.results$AICc - min(local.results$AICc)
+      rel.lik <- exp(-0.5* local.results$deltaAICc)
+      local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
+      all.results <- plyr::rbind.fill(all.results, local.results)
     }
-    local.results$deltaAICc <- local.results$AICc - min(local.results$AICc)
-    rel.lik <- exp(-0.5* local.results$deltaAICc)
-    local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
-    all.results <- plyr::rbind.fill(all.results, local.results)
   }
 }
 save(all.results, file="Summary.rda")
