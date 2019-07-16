@@ -18,6 +18,7 @@ for (file.index in seq_along(relevant.files)) {
     local.results$deltaAICc <- local.results$AICc - min(local.results$AICc)
     rel.lik <- exp(-0.5* local.results$deltaAICc)
     local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
+    local.results$source.file <- relevant.files[file.index]
     all.results <- plyr::rbind.fill(all.results, local.results)
   }
 }
