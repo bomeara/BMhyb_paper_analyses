@@ -27,7 +27,7 @@ DoRunTemplated <- function(ntax, nhybridizations, tree.height, sigma.sq, mu, bt,
     free.parameter.row <- free.parameter.matrix[model.index,]
     free.parameters <- colnames(free.parameter.row)[unlist(free.parameter.row)]
 
-    result <- BMhyb::BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=gamma, confidence.points=100)
+    result <- BMhyb::BMhyb(phy.graph=phy.graph, traits=tips, free.parameter.names=free.parameters, gamma=gamma, confidence.points=0)
     results[[model.index]] <- result
 #  result$hostname <- hostname
   }
