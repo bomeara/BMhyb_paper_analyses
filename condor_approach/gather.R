@@ -46,7 +46,8 @@ for (file.index in seq_along(relevant.files)) {
     local.results.threshold <- local.results.numeric[which(local.results.numeric$deltaAICc<delta.AICc.threshold),]
     rel.lik <- exp(-0.5* local.results.threshold$deltaAICc)
     local.results.threshold$AkaikeWeight <- rel.lik / sum(rel.lik)
-    avg.local.results.threshold <- apply(local.results.threshold[,which(local.results.threshold, 2, is.numeric)], 2, stats::weighted.mean, w=local.results.threshold$AkaikeWeight)
+
+    avg.local.results.threshold <- apply(local.results.threshold, 2, stats::weighted.mean, w=local.results.threshold$AkaikeWeight)
     avg.local.results.threshold$source.file <- local.results$source.file[1]
 
     all.results <- plyr::rbind.fill(all.results, local.results)
