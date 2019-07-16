@@ -13,12 +13,12 @@ for (i in sequence(nrow(condition.matrix))) {
     for (result.index in seq_along(results)) {
       result <- results[[result.index]]
       result.params <- c(result$best, conditions)
-      local.results <- dplyr::rbind.fill(local.results, result.params)
+      local.results <- plyr::rbind.fill(local.results, result.params)
     }
     local.results$deltaAICc <- local.results$AICc - min(local.results$AICc)
     rel.lik <- exp(-0.5* local.results$deltaAICc)
     local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
-    all.results <- dplyr::rbind.fill(all.results, local.results)
+    all.results <- plyr::rbind.fill(all.results, local.results)
   }
 }
 save(all.results, file="Summary.rda")
