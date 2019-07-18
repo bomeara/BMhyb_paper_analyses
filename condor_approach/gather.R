@@ -24,7 +24,6 @@ for (file.index in seq_along(relevant.files)) {
     rel.lik <- exp(-0.5* local.results$deltaAICc)
     local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
 
-    local.results$ModelType <- paste0("SM", ifelse(local.results$vh.fixed, "V", "_"), ifelse(local.results$bt.fixed, "B", "_"), ifelse(local.results$SE.fixed, "E", "_"))
 
     local.results$source.file <- relevant.files[file.index]
 
@@ -60,6 +59,8 @@ for (file.index in seq_along(relevant.files)) {
 
   }
 }
+
+all.results$ModelType <- paste0("SM", ifelse(all.results$vh.fixed, "V", "_"), ifelse(all.results$bt.fixed, "B", "_"), ifelse(all.results$SE.fixed, "E", "_"))
 
 
 save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
