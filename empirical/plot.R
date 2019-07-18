@@ -1,11 +1,17 @@
+rm(list=ls())
 library(BMhyb)
 load("NicotianaResults.rda")
 load("CichlidResults.rda")
-BMhyb::plot(n.results)
-BMhyb::plot(n.results, style="contour")
 
-BMhyb::plot(c.results.no.empirical.se)
-BMhyb::plot(c.results.no.empirical.se, style="contour")
 
-BMhyb::plot(c.results.yes.empirical.se)
-BMhyb::plot(c.results.yes.empirical.se, style="contour")
+DoPlot <- function(x) {
+  best.run <- which(x$summary.df$deltaAICc==0)
+  plot(x$results[[best.run]])
+  plot(x$results[[best.run]], style="contour")
+
+}
+
+
+DoPlot(n.results)
+DoPlot(c.results.no.empirical.se)
+DoPlot(c.results.yes.empirical.se)
