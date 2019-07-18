@@ -18,7 +18,7 @@ plotresults <- function(results) {
     
     
     sigma.sq.plot <- ggplot(results, aes(x=Number_of_taxa, y=sigma.sq, fill=Number_of_hybridizations)) +
-        geom_violin() + geom_hline(yintercept=unique(results$sigma.sq.true)) + scale_fill_viridis_d() + scale_y_log10()
+        geom_violin() + geom_hline(yintercept=unique(results$sigma.sq.true)) + scale_fill_viridis_d() 
     print(sigma.sq.plot)
     
     mu.plot <- ggplot(results, aes(x=Number_of_taxa, y=mu, fill=Number_of_hybridizations)) +
