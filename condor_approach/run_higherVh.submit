@@ -2,7 +2,7 @@ log = bmhyb_$(Cluster)_$(Process).log
 error = bmhyb_$(Cluster)_$(Process).err
 output = bmhyb_$(Cluster)_$(Process).out
 
-executable = run.sh
+executable = run_higherVh.sh
 arguments = $(Cluster) $(Process)
 
 should_transfer_files = YES
