@@ -23,6 +23,9 @@ for (file.index in seq_along(relevant.files)) {
     local.results$deltaAICc <- local.results$AICc - min(local.results$AICc)
     rel.lik <- exp(-0.5* local.results$deltaAICc)
     local.results$AkaikeWeight <- rel.lik / sum(rel.lik)
+
+    local.results$ModelType <- paste0("SM", ifelse(local.results$vh.fixed, "V", "_"), ifelse(local.results$bt.fixed, "B", "_"), ifelse(local.results$SE.fixed, "E", "_"))
+
     local.results$source.file <- relevant.files[file.index]
 
     local.results$SE.fixed <- FALSE
@@ -57,16 +60,6 @@ for (file.index in seq_along(relevant.files)) {
 
   }
 }
-all.results$SE.fixed <- FALSE
-all.results$SE.fixed[which(is.na(all.results$SE))] <- TRUE
-all.results$SE[which(is.na(all.results$SE))] <- 0
 
-all.results$bt.fixed <- FALSE
-all.results$bt.fixed[which(is.na(all.results$bt))] <- TRUE
-all.results$bt[which(is.na(all.results$bt))] <- 1
-
-all.results$vh.fixed <- FALSE
-all.results$vh.fixed[which(is.na(all.results$vh))] <- TRUE
-all.results$vh[which(is.na(all.results$vh))] <- 0
 
 save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
