@@ -60,7 +60,7 @@ for (file.index in seq_along(relevant.files)) {
   }
 }
 
-all.results$ModelType <- paste0("SM", ifelse(all.results$vh.fixed, "V", "_"), ifelse(all.results$bt.fixed, "B", "_"), ifelse(all.results$SE.fixed, "E", "_"))
+all.results$ModelType <- paste0("SM", ifelse(all.results$vh.fixed, "_", "V"), ifelse(all.results$bt.fixed, "_", "B"), ifelse(all.results$SE.fixed, "_", "E"))
 
 
 save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")

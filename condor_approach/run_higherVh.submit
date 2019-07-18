@@ -1,0 +1,12 @@
+log = bmhyb_$(Cluster)_$(Process).log
+error = bmhyb_$(Cluster)_$(Process).err
+output = bmhyb_$(Cluster)_$(Process).out
+
+executable = run.sh
+arguments = $(Cluster) $(Process)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = run_higherVh.R
+
+queue 600

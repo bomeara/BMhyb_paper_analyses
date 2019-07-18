@@ -1,5 +1,6 @@
 #save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
 rm(list=ls())
+source("gather.R")
 library(ggplot2)
 library(Metrics)
 
@@ -14,7 +15,6 @@ plotresults <- function(results) {
     results$Weight_for_free_beta <- 1-results$bt.fixed
     results$Weight_for_free_SE <- 1-results$SE.fixed
     results$Weight_for_free_vh <- 1-results$vh.fixed
-    results$ModelType <- paste0("SM", ifelse(results$vh.fixed, "V", "_"), ifelse(results$bt.fixed, "B", "_"), ifelse(results$SE.fixed, "E", "_"))
     
     
     
@@ -53,9 +53,11 @@ plotresults <- function(results) {
         geom_violin() + facet_wrap(~ Number_of_hybridizations + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(SE.plot2)
     
-    vh.exhaustive.plot <- ggplot(results, aes(x=Number_of_taxa, y=Weight_for_free_vh, fill=True_vh)) +
-        geom_violin() + facet_wrap(~ Number_of_hybridizations + True_vh+ModelType,  nrow=2, labeller = label_both) + scale_fill_viridis_d()
-    print(vh.exhaustive.plot)
+    if(any(grepl("ModelType", colnames(results)))) {
+        vh.exhaustive.plot <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=True_vh)) +
+            geom_boxplot() + facet_wrap(~ Number_of_hybridizations +ModelType,  nrow=3, labeller = label_both) + scale_fill_viridis_d() + ylim(low=0, high=0.5)
+        print(vh.exhaustive.plot)
+    }
     
 }
 
