@@ -71,4 +71,4 @@ load("Summary.rda")
 
 plotresults(model.averaged.results)
 
-plotresults(all.results)
+#plotresults(all.results)
