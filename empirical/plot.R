@@ -1,7 +1,8 @@
 rm(list=ls())
 library(BMhyb)
 load("NicotianaResults.rda")
-load("CichlidResults.rda")
+load("CichlidResultsYes.rda")
+load("CichlidResultsNo.rda")
 
 
 DoPlot <- function(x) {
