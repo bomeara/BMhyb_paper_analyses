@@ -61,6 +61,9 @@ for (file.index in seq_along(relevant.files)) {
 }
 
 all.results$ModelType <- paste0("SM", ifelse(all.results$vh.fixed, "_", "V"), ifelse(all.results$bt.fixed, "_", "B"), ifelse(all.results$SE.fixed, "_", "E"))
+all.results$GeneratingModelType <- paste0("SM", ifelse(all.results$vh.true>0, "_", "V"), ifelse(all.results$bt.true!=1, "_", "B"), ifelse(all.results$SE.true>0, "_", "E"))
+
+all.results$BMhyb_version <- saved_session_info$otherPkgs$BMhyb$Version
 
 
 save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
