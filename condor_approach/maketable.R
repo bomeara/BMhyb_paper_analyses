@@ -58,7 +58,7 @@ openxlsx::writeDataTable(wb, sheet=1, result_matrix)
 for (column_index in sequence(ncol(result_matrix))) {
   if(!grepl("_est", colnames(result_matrix)[column_index])) {
     start_merge <- 2
-    for (row_index in 3:nrow(result_matrix)) {
+    for (row_index in 2:nrow(result_matrix)) {
       if(result_matrix[row_index, column_index] != result_matrix[row_index-1, column_index]) {
         openxlsx::mergeCells(wb, sheet=1, cols=rep(column_index,2), rows=c(start_merge, row_index))
         start_merge <- row_index + 1
