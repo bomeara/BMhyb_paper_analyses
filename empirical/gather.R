@@ -27,6 +27,8 @@ c.results$hybrid_proportional_BM_variance <- c.results$BM_variance / c.results$h
 c.results$hybrid_proportional_vh_variance <- c.results$vh / c.results$hybrid_variance
 c.results <- c.results[order(c.results$AkaikeWeight, decreasing=TRUE),]
 
+print(c.results)
+
 all.sims <- data.frame()
 
 for (i in seq_along(c.results.raw)) {
@@ -36,9 +38,20 @@ for (i in seq_along(c.results.raw)) {
 
 all.sims <- all.sims[,-which(colnames(all.sims)=="SE")] # because SE has different meanings depending on whether we know empirical or not
 params <- colnames(all.sims)[-1]
+all.sims$bt[which(is.na(all.sims$bt))] <- 1
+all.sims$vh[which(is.na(all.sims$vh))] <- 0
 x <- list()
 x$good.region <- all.sims[which(all.sims$negloglik<=(2+min(all.sims$negloglik))),]
 x$bad.region <- all.sims[which(all.sims$negloglik>(2+min(all.sims$negloglik))),]
+
+print("Ciclid CI")
+print(apply(x$good.region, 2, range))
+
+for (param_index in seq_along(params)) {
+  print(params[param_index])
+  print(weighted.mean(c.results[,params[param_index]], c.results$AkaikeWeight))
+}
+
 graphics::par(mfcol=c(1, length(params)))
 for(parameter in sequence(length(params))) {
     graphics::plot(x=all.sims[,parameter+1], y=all.sims[,1], type="n", xlab=params[parameter], ylab="NegLnL", bty="n", ylim=c(min(all.sims[,1]), max(all.sims[,1])))
@@ -48,5 +61,8 @@ for(parameter in sequence(length(params))) {
 }
 
 load("NicotianaResults.rda")
-merged <- MergeExhaustiveForPlotting(n.results)
-plot(merged, style="contour")
+class(n.results) <- "BMhybExhaustiveResult"
+#merged <- MergeExhaustiveForPlotting(n.results)
+#plot(merged, style="contour")
+plot(n.results)
+summary(n.results)
