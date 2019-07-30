@@ -53,6 +53,10 @@ plotresults <- function(results) {
         geom_boxplot(notch=TRUE) + facet_wrap(~ Number_of_hybridizations + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(SE.plot2)
     
+    vh.plot3 <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=Number_of_hybridizations)) +
+        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = vh.true)) +  facet_wrap(~ Number_of_hybridizations + True_vh + True_SE + True_beta, nrow=4, labeller = label_both) + scale_fill_viridis_d()
+    print(vh.plot3)
+    
     if(any(grepl("ModelType", colnames(results)))) {
         vh.exhaustive.plot <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=True_vh)) +
             geom_boxplot() + facet_wrap(~ Number_of_hybridizations +ModelType,  nrow=3, labeller = label_both) + scale_fill_viridis_d() + ylim(low=0, high=0.5)
@@ -72,3 +76,7 @@ load("Summary.rda")
 plotresults(model.averaged.results)
 
 #plotresults(all.results)
+
+best.results <- all.results[which(all.results$deltaAICc==0),]
+
+vh.best <- best.results[which(best.results$vh>0),]
