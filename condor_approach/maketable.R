@@ -1,4 +1,5 @@
 library(openxlsx)
+library(Metrics)
 source("gather.R")
 
 condition.matrix.variable.only <- expand.grid(ntax=c(30,100), nhybridizations=c(1,5,10), bt=c(1,2), vh=c(0, 0.1*50*0.01, 0.5*50*0.01), SE=c(0, 0.1*sqrt(0.01*50))) #for Vh, zero, as much variance as you get from 10% of evo history, or as much variance as you get from 50% of the whole tree. For SE, 10% and half of the variance from BM
@@ -54,7 +55,7 @@ result_matrix <- data.frame(
 
 wb <- openxlsx::createWorkbook()
 openxlsx::addWorksheet(wb, "Summary")
-openxlsx::writeDataTable(wb, sheet=1, result_matrix)
+openxlsx::writeDataTable(wb, sheet=1, result_matrix, tableStyle="none", withFilter = FALSE)
 for (column_index in sequence(ncol(result_matrix))) {
   if(!grepl("_est", colnames(result_matrix)[column_index])) {
     start_merge <- 2
@@ -70,3 +71,20 @@ for (column_index in sequence(ncol(result_matrix))) {
 
 openxlsx::saveWorkbook(wb, "Summary.xlsx", overwrite = TRUE)
 system("open Summary.xlsx")
+
+ComputeNormalizedRMSE <- function(x, params) {
+  rmse_vector <- rep(NA, length(params))
+  names(rmse_vector) <- params
+  for (i in seq_along(params)) {
+    rmse_vector[i] <- Metrics::rmse(x[,paste0(params[i],'.true')], x[,params[i]])/mean(x[,paste0(params[i],'.true')])
+  }
+  return(rmse_vector)
+}
+
+normalized.rmse.df <-  data.frame(model.averaged=ComputeNormalizedRMSE(model.averaged.results, params), best.model=ComputeNormalizedRMSE(best.results, params))
+
+wb2 <- openxlsx::createWorkbook()
+openxlsx::addWorksheet(wb2, "NormalizedRMSE")
+openxlsx::writeDataTable(wb2, sheet=1, normalized.rmse.df,rowNames=TRUE, tableStyle="none", withFilter = FALSE)
+openxlsx::saveWorkbook(wb2, "NormalizedRMSE.xlsx", overwrite = TRUE)
+system("open NormalizedRMSE.xlsx")
