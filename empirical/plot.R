@@ -25,4 +25,8 @@ print(plot(n.results, style="contour", nrow=2))
 dev.off()
 
 #ggplot2::ggsave("NicotianaResults_ggsave.pdf")
-summary(n.results)
+#summary(n.results)
+
+pdf(file="CichlidUnivariateResults.pdf", height=5, width=10)
+plot(c.results.raw[[c.results.no.empirical.se$summary.df$ModelNumber[which(c.results.no.empirical.se$summary.df$deltaAICc==0)]]])
+dev.off()

@@ -52,6 +52,24 @@ for (param_index in seq_along(params)) {
   print(weighted.mean(c.results[,params[param_index]], c.results$AkaikeWeight))
 }
 
+c.results$Taxon <- "Cichlidae"
+load("NicotianaResults.rda")
+
+n.results.pretty <- n.results$summary.df
+n.results.pretty <- n.results.pretty[order(n.results.pretty$deltaAICc, decreasing=FALSE),]
+n.results.pretty$Taxon <- "Nicotiana"
+
+pretty.results <- plyr::rbind.fill(n.results.pretty, c.results)
+
+final.results <- pretty.results[,c("Taxon", "EmpiricalSEKnown", "ModelType", "sigma.sq", "mu", "bt", "vh", "SE", "NegLogLik", "K", "deltaAICc", "AkaikeWeight")]
+final.results$EmpiricalSEKnown[is.na(final.results$EmpiricalSEKnown)] <- FALSE
+final.results$bt[is.na(final.results$bt)]<-1
+final.results$vh[is.na(final.results$vh)]<-0
+final.results$SE[is.na(final.results$SE)]<-0
+write.csv(final.results, file="EmpiricalResults.csv")
+
+
+
 # graphics::par(mfcol=c(1, length(params)))
 # for(parameter in sequence(length(params))) {
 #     graphics::plot(x=all.sims[,parameter+1], y=all.sims[,1], type="n", xlab=params[parameter], ylab="NegLnL", bty="n", ylim=c(min(all.sims[,1]), max(all.sims[,1])))
@@ -59,12 +77,3 @@ for (param_index in seq_along(params)) {
 #     graphics::points(x=x$bad.region[,parameter+1], y=x$bad.region[,1], pch=16, col="gray")
 #     #graphics::points(x= x$best[parameter], y= x$best['NegLogLik'], pch=1, col=focal.color, cex=1.5)
 # }
-
-load("NicotianaResults.rda")
-class(n.results) <- "BMhybExhaustiveResult"
-pdf(file="NicotianaResults.pdf")
-print(plot(n.results, style="contour", nrow=2))
-dev.off()
-
-ggplot2::ggsave("NicotianaResults_ggsave.pdf")
-summary(n.results)
