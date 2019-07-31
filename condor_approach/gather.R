@@ -65,5 +65,7 @@ all.results$GeneratingModelType <- paste0("SM", ifelse(all.results$vh.true>0, "_
 
 all.results$BMhyb_version <- saved_session_info$otherPkgs$BMhyb$Version
 
+best.results <- all.results[which(all.results$deltaAICc==0),]
+
 
 save(all.results, model.averaged.results, model.averaged.results.no.outliers, file="Summary.rda")
