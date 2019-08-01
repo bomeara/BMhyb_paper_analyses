@@ -8,7 +8,7 @@ library(Metrics)
 plotresults <- function(results) {
     
     results$Number_of_taxa <- as.factor(results$ntax.true)
-    results$Number_of_hybridizations <- as.factor(results$nhybridizations.true)
+    results$N_Hybrid <- as.factor(results$nhybridizations.true)
     results$True_beta <- as.factor(results$bt.true) 
     results$True_vh <- as.factor(results$vh.true)
     results$True_SE <- as.factor(results$SE.true)
@@ -18,48 +18,48 @@ plotresults <- function(results) {
     
     
     
-    sigma.sq.plot <- ggplot(results, aes(x=Number_of_taxa, y=sigma.sq, fill=Number_of_hybridizations)) +
+    sigma.sq.plot <- ggplot(results, aes(x=Number_of_taxa, y=sigma.sq, fill=N_Hybrid)) +
         geom_boxplot(notch=TRUE) + geom_hline(yintercept=unique(results$sigma.sq.true)) + scale_fill_viridis_d() 
     print(sigma.sq.plot)
     
-    mu.plot <- ggplot(results, aes(x=Number_of_taxa, y=mu, fill=Number_of_hybridizations)) +
+    mu.plot <- ggplot(results, aes(x=Number_of_taxa, y=mu, fill=N_Hybrid)) +
         geom_boxplot(notch=TRUE) + geom_hline(yintercept=unique(results$mu.true)) + scale_fill_viridis_d()
     print(mu.plot)
     
-    vh.plot <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=Number_of_hybridizations)) +
-        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = vh.true)) +  facet_wrap(~ Number_of_hybridizations + True_vh, nrow=1, labeller = label_both) + scale_fill_viridis_d()
+    vh.plot <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=N_Hybrid)) +
+        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = vh.true)) +  facet_wrap(~ N_Hybrid + True_vh, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(vh.plot)
   
     
-    SE.plot <- ggplot(results, aes(x=Number_of_taxa, y=SE, fill=Number_of_hybridizations)) +
-        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = SE.true)) +  facet_wrap(~ Number_of_hybridizations + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
+    SE.plot <- ggplot(results, aes(x=Number_of_taxa, y=SE, fill=N_Hybrid)) +
+        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = SE.true)) +  facet_wrap(~ N_Hybrid + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(SE.plot)
     
     
     bt.plot <- ggplot(results, aes(x=Number_of_taxa, y=bt, fill=True_beta)) +
-        geom_boxplot(notch=TRUE) + facet_wrap(~ Number_of_hybridizations + True_beta, nrow=1, labeller = label_both) + geom_hline(data = results, aes(yintercept = bt.true)) + scale_fill_viridis_d()
+        geom_boxplot(notch=TRUE) + facet_wrap(~ N_Hybrid + True_beta, nrow=1, labeller = label_both) + geom_hline(data = results, aes(yintercept = bt.true)) + scale_fill_viridis_d()
     print(bt.plot)
     
     bt.plot2 <- ggplot(results, aes(x=Number_of_taxa, y=Weight_for_free_beta, fill=True_beta)) +
-        geom_boxplot(notch=TRUE) + facet_wrap(~ Number_of_hybridizations + True_beta, nrow=1, labeller = label_both) + scale_fill_viridis_d()
+        geom_boxplot(notch=TRUE) + facet_wrap(~ N_Hybrid + True_beta, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(bt.plot2)
     
     vh.plot2 <- ggplot(results, aes(x=Number_of_taxa, y=Weight_for_free_vh, fill=True_vh)) +
-        geom_boxplot(notch=TRUE) + facet_wrap(~ Number_of_hybridizations + True_vh, nrow=1, labeller = label_both) + scale_fill_viridis_d()
+        geom_boxplot(notch=TRUE) + facet_wrap(~ N_Hybrid + True_vh, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(vh.plot2)
     
     
     SE.plot2 <- ggplot(results, aes(x=Number_of_taxa, y=Weight_for_free_SE, fill=True_SE)) +
-        geom_boxplot(notch=TRUE) + facet_wrap(~ Number_of_hybridizations + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
+        geom_boxplot(notch=TRUE) + facet_wrap(~ N_Hybrid + True_SE, nrow=1, labeller = label_both) + scale_fill_viridis_d()
     print(SE.plot2)
     
-    vh.plot3 <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=Number_of_hybridizations)) +
-        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = vh.true)) +  facet_wrap(~ Number_of_hybridizations + True_vh + True_SE + True_beta, nrow=4, labeller = label_both) + scale_fill_viridis_d()
+    vh.plot3 <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=N_Hybrid)) +
+        geom_boxplot(notch=TRUE) + geom_hline(data = results, aes(yintercept = vh.true)) +  facet_wrap(~ N_Hybrid + True_vh + True_SE + True_beta, nrow=4, labeller = label_both) + scale_fill_viridis_d()
     print(vh.plot3)
     
     if(any(grepl("ModelType", colnames(results)))) {
         vh.exhaustive.plot <- ggplot(results, aes(x=Number_of_taxa, y=vh, fill=True_vh)) +
-            geom_boxplot() + facet_wrap(~ Number_of_hybridizations +ModelType,  nrow=3, labeller = label_both) + scale_fill_viridis_d() + ylim(low=0, high=0.5)
+            geom_boxplot() + facet_wrap(~ N_Hybrid +ModelType,  nrow=3, labeller = label_both) + scale_fill_viridis_d() + ylim(low=0, high=0.5)
         print(vh.exhaustive.plot)
     }
     
