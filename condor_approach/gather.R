@@ -1,6 +1,7 @@
 rm(list=ls())
 library(BMhyb)
 library(dplyr)
+library(geiger)
 
 all.results <- data.frame()
 model.averaged.results <- data.frame()
@@ -10,11 +11,25 @@ delta.AICc.threshold <- 10
 
 relevant.files <- list.files(pattern="Result.*rda")
 for (file.index in seq_along(relevant.files)) {
+  print(paste0("Doing ", file.index, " of ", length(relevant.files)))
   results <- NULL
   conditions <- NULL
   try(load(relevant.files[file.index]))
   if(!is.null(results)) {
     names(conditions) <- paste0(names(conditions), ".true")
+
+    GetGeigerResults <- function(BMhyb_object) {
+      se.est <- geiger::fitContinuous(BMhyb_object$phy.graph, BMhyb_object$traits, SE=NA)
+      se.0 <- geiger::fitContinuous(BMhyb_object$phy.graph, BMhyb_object$traits, SE=0)
+      se.est.deltaaicc <- se.est$opt$aicc - min(se.est$opt$aicc, se.0$opt$aicc)
+      se.0.deltaaicc <- se.0$opt$aicc - min(se.est$opt$aicc, se.0$opt$aicc)
+      se.est.rel.lik <- exp(-0.5* se.est.deltaaicc)
+      se.0.rel.lik <- exp(-0.5* se.0.deltaaicc)
+      se.est.weight <- se.est.rel.lik / (se.est.rel.lik + se.0.rel.lik)
+      se.0.weight <- se.0.rel.lik / (se.est.rel.lik + se.0.rel.lik)
+      return(c(geiger.sigma.sq = (se.est$opt$sigsq*se.est.weight + se.0$opt$sigsq*se.0.weight), geiger.SE = (se.est$opt$SE*se.est.weight + 0*se.0.weight), geiger.mu = (se.est$opt$z0*se.est.weight + se.0$opt$z0*se.0.weight)))
+    }
+
     local.results <- data.frame()
     for(i in sequence(length(results))) {
       local.row <- cbind(results[[i]]$best, conditions)
@@ -45,6 +60,11 @@ for (file.index in seq_along(relevant.files)) {
 
     avg.local.results <- data.frame(t(apply(local.results.numeric, 2, stats::weighted.mean, w=local.results.numeric$AkaikeWeight)))
     avg.local.results$source.file <- local.results$source.file[1]
+    geiger.results <- suppressWarnings(GetGeigerResults(results[[1]]))
+    avg.local.results$geiger.sigma.sq <- unname(geiger.results["geiger.sigma.sq"])
+    avg.local.results$geiger.SE <- unname(geiger.results["geiger.SE"])
+    avg.local.results$geiger.mu <- unname(geiger.results["geiger.mu"])
+
 
     local.results.threshold <- local.results.numeric[which(local.results.numeric$deltaAICc<delta.AICc.threshold),]
     rel.lik <- exp(-0.5* local.results.threshold$deltaAICc)

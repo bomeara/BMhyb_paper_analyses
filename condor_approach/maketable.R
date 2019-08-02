@@ -53,6 +53,7 @@ result_matrix <- data.frame(
   stringsAsFactors=FALSE
 )
 
+
 wb <- openxlsx::createWorkbook()
 openxlsx::addWorksheet(wb, "Summary")
 openxlsx::writeDataTable(wb, sheet=1, result_matrix, tableStyle="none", withFilter = FALSE)
@@ -69,8 +70,6 @@ for (column_index in sequence(ncol(result_matrix))) {
   }
 }
 
-openxlsx::saveWorkbook(wb, "Summary.xlsx", overwrite = TRUE)
-system("open Summary.xlsx")
 
 ComputeNormalizedRMSE <- function(x, params) {
   rmse_vector <- rep(NA, length(params))
@@ -82,9 +81,21 @@ ComputeNormalizedRMSE <- function(x, params) {
 }
 
 normalized.rmse.df <-  data.frame(model.averaged=ComputeNormalizedRMSE(model.averaged.results, params), best.model=ComputeNormalizedRMSE(best.results, params))
+normalized.rmse.df$geiger.averaged <- c(
+  sigma.sq = Metrics::rmse(model.averaged.results$sigma.sq.true,model.averaged.results$geiger.sigma.sq)/mean(model.averaged.results$sigma.sq.true),
+  mu = Metrics::rmse(model.averaged.results$mu.true,model.averaged.results$geiger.mu)/mean(model.averaged.results$mu.true),
+  bt = NA,
+  vh = NA,
+  SE = Metrics::rmse(model.averaged.results$SE.true,model.averaged.results$geiger.SE)/mean(model.averaged.results$SE.true)
+  )
 
 wb2 <- openxlsx::createWorkbook()
 openxlsx::addWorksheet(wb2, "NormalizedRMSE")
 openxlsx::writeDataTable(wb2, sheet=1, normalized.rmse.df,rowNames=TRUE, tableStyle="none", withFilter = FALSE)
 openxlsx::saveWorkbook(wb2, "NormalizedRMSE.xlsx", overwrite = TRUE)
 system("open NormalizedRMSE.xlsx")
+
+Sys.sleep(5)
+
+openxlsx::saveWorkbook(wb, "Summary.xlsx", overwrite = TRUE)
+system("open Summary.xlsx")
