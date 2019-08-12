@@ -89,6 +89,21 @@ normalized.rmse.df$geiger.averaged <- c(
   SE = Metrics::rmse(model.averaged.results$SE.true,model.averaged.results$geiger.SE)/mean(model.averaged.results$SE.true)
   )
 
+
+model.averaged.no.vh.bt <- model.averaged.results[which(model.averaged.results$bt.true==1 & model.averaged.results$vh.true==0),]
+
+normalized.rmse.df.no.vh.bt <-  data.frame(model.averaged.no.vh.bt=ComputeNormalizedRMSE(model.averaged.no.vh.bt, params))
+normalized.rmse.df.no.vh.bt["vh",] <- NA # b/c can't normalize with zero
+normalized.rmse.df.no.vh.bt$geiger.averaged.no.vh.bt <- c(
+  sigma.sq = Metrics::rmse(model.averaged.no.vh.bt$sigma.sq.true,model.averaged.no.vh.bt$geiger.sigma.sq)/mean(model.averaged.no.vh.bt$sigma.sq.true),
+  mu = Metrics::rmse(model.averaged.no.vh.bt$mu.true,model.averaged.no.vh.bt$geiger.mu)/mean(model.averaged.no.vh.bt$mu.true),
+  bt = NA,
+  vh = NA,
+  SE = Metrics::rmse(model.averaged.no.vh.bt$SE.true,model.averaged.no.vh.bt$geiger.SE)/mean(model.averaged.no.vh.bt$SE.true)
+  )
+
+normalized.rmse.df <- cbind(normalized.rmse.df, normalized.rmse.df.no.vh.bt)
+
 wb2 <- openxlsx::createWorkbook()
 openxlsx::addWorksheet(wb2, "NormalizedRMSE")
 openxlsx::writeDataTable(wb2, sheet=1, normalized.rmse.df,rowNames=TRUE, tableStyle="none", withFilter = FALSE)
