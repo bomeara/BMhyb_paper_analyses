@@ -1,0 +1,48 @@
+000 (066.561.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.561.000) 08/01 16:56:12 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+006 (066.561.000) 08/01 16:56:21 Image size of job updated: 242992
+	238  -  MemoryUsage of job (MB)
+	242992  -  ResidentSetSize of job (KB)
+...
+006 (066.561.000) 08/01 17:11:22 Image size of job updated: 247480
+	242  -  MemoryUsage of job (MB)
+	247480  -  ResidentSetSize of job (KB)
+...
+006 (066.561.000) 08/01 17:41:25 Image size of job updated: 247492
+	242  -  MemoryUsage of job (MB)
+	247492  -  ResidentSetSize of job (KB)
+...
+022 (066.561.000) 08/02 16:20:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_14@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+024 (066.561.000) 08/02 17:00:21 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_14@omearaclustere, rescheduling job
+...
+012 (066.561.000) 08/03 14:17:32 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.561.000) 08/05 22:27:42 Job executing on host: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=69176_8f87_4>
+...
+013 (066.561.000) 08/05 22:28:19 Job was released.
+	via condor_release (by user bomeara)
+...
+005 (066.561.000) 08/09 20:50:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 3 22:12:31, Sys 0 00:00:56  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 3 22:12:31, Sys 0 00:00:56  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	33063  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	33063  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    51          75    891527 
+	   Memory (MB)          :   245         245       256 
+...

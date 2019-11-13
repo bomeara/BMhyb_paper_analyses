@@ -1,0 +1,74 @@
+000 (066.1709.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1709.000) 08/03 14:17:27 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1709.000) 08/05 22:28:14 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1709.000) 08/09 10:36:24 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1709.000) 08/09 13:05:32 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1709.000) 09/23 13:37:59 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1709.000) 09/24 14:49:48 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1709.000) 10/01 01:07:53 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2250_e42e_4>
+...
+006 (066.1709.000) 10/01 01:08:02 Image size of job updated: 243532
+	238  -  MemoryUsage of job (MB)
+	243532  -  ResidentSetSize of job (KB)
+...
+006 (066.1709.000) 10/01 01:13:03 Image size of job updated: 246812
+	242  -  MemoryUsage of job (MB)
+	246812  -  ResidentSetSize of job (KB)
+...
+006 (066.1709.000) 10/01 01:23:04 Image size of job updated: 246824
+	242  -  MemoryUsage of job (MB)
+	246824  -  ResidentSetSize of job (KB)
+...
+006 (066.1709.000) 10/02 19:42:28 Image size of job updated: 249168
+	244  -  MemoryUsage of job (MB)
+	249168  -  ResidentSetSize of job (KB)
+...
+022 (066.1709.000) 10/04 13:13:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2250_e42e_4>
+...
+024 (066.1709.000) 10/04 13:53:25 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_24@omearaclusteri, rescheduling job
+...
+001 (066.1709.000) 10/04 13:55:21 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+006 (066.1709.000) 10/06 10:50:09 Image size of job updated: 251280
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+006 (066.1709.000) 10/08 10:55:10 Image size of job updated: 251288
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.1709.000) 10/09 22:49:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 5 08:40:22, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 5 08:40:22, Sys 0 00:00:39  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31320  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31320  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    892326 
+	   Memory (MB)          :   245         245       256 
+...

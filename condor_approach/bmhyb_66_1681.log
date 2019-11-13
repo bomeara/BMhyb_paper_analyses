@@ -1,0 +1,64 @@
+000 (066.1681.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1681.000) 08/03 14:17:25 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1681.000) 08/05 22:28:12 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1681.000) 08/09 10:36:22 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1681.000) 08/09 13:05:31 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1681.000) 09/23 13:38:15 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1681.000) 09/24 14:50:05 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1681.000) 09/28 17:13:43 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2329_1429_4>
+...
+006 (066.1681.000) 09/28 17:13:52 Image size of job updated: 234568
+	230  -  MemoryUsage of job (MB)
+	234568  -  ResidentSetSize of job (KB)
+...
+006 (066.1681.000) 09/28 17:18:53 Image size of job updated: 241604
+	236  -  MemoryUsage of job (MB)
+	241604  -  ResidentSetSize of job (KB)
+...
+006 (066.1681.000) 09/28 17:23:54 Image size of job updated: 241616
+	236  -  MemoryUsage of job (MB)
+	241616  -  ResidentSetSize of job (KB)
+...
+006 (066.1681.000) 09/30 03:07:23 Image size of job updated: 242752
+	238  -  MemoryUsage of job (MB)
+	242752  -  ResidentSetSize of job (KB)
+...
+006 (066.1681.000) 09/30 09:28:03 Image size of job updated: 246428
+	241  -  MemoryUsage of job (MB)
+	246428  -  ResidentSetSize of job (KB)
+...
+006 (066.1681.000) 10/01 00:59:41 Image size of job updated: 248740
+	243  -  MemoryUsage of job (MB)
+	248740  -  ResidentSetSize of job (KB)
+...
+005 (066.1681.000) 10/01 13:33:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 20:14:34, Sys 0 00:00:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 20:14:34, Sys 0 00:00:22  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32322  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32322  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50           4    888340 
+	   Memory (MB)          :   243           1       128 
+...

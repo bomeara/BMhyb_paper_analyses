@@ -1,0 +1,49 @@
+000 (066.869.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.869.000) 08/03 14:16:44 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.869.000) 08/05 22:27:30 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.869.000) 08/09 10:35:28 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.869.000) 08/09 13:04:49 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.869.000) 08/11 21:16:26 Job executing on host: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=69176_8f87_4>
+...
+006 (066.869.000) 08/11 21:16:35 Image size of job updated: 243404
+	238  -  MemoryUsage of job (MB)
+	243404  -  ResidentSetSize of job (KB)
+...
+006 (066.869.000) 08/11 21:26:37 Image size of job updated: 250388
+	245  -  MemoryUsage of job (MB)
+	250388  -  ResidentSetSize of job (KB)
+...
+022 (066.869.000) 08/14 14:07:46 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_8@omearaclusterd <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=69176_8f87_4>
+...
+023 (066.869.000) 08/14 14:07:51 Job reconnected to slot1_8@omearaclusterd
+    startd address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=69176_8f87_4>
+    starter address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=69281_7b5a_215>
+...
+005 (066.869.000) 08/22 22:24:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 11 00:40:41, Sys 0 00:03:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 11 00:40:41, Sys 0 00:03:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32500  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	32500  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          50    891527 
+	   Memory (MB)          :   269         269       128 
+...

@@ -1,0 +1,45 @@
+000 (066.269.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.269.000) 07/27 01:04:56 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+006 (066.269.000) 07/27 01:05:05 Image size of job updated: 243296
+	238  -  MemoryUsage of job (MB)
+	243296  -  ResidentSetSize of job (KB)
+...
+006 (066.269.000) 07/27 01:15:07 Image size of job updated: 246848
+	242  -  MemoryUsage of job (MB)
+	246848  -  ResidentSetSize of job (KB)
+...
+006 (066.269.000) 07/27 01:25:07 Image size of job updated: 246864
+	242  -  MemoryUsage of job (MB)
+	246864  -  ResidentSetSize of job (KB)
+...
+006 (066.269.000) 07/28 13:13:49 Image size of job updated: 249352
+	244  -  MemoryUsage of job (MB)
+	249352  -  ResidentSetSize of job (KB)
+...
+022 (066.269.000) 08/01 10:00:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_7@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+001 (066.269.000) 08/01 16:52:23 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+006 (066.269.000) 08/04 05:13:48 Image size of job updated: 250364
+	245  -  MemoryUsage of job (MB)
+	250364  -  ResidentSetSize of job (KB)
+...
+005 (066.269.000) 08/04 07:14:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 14:15:42, Sys 0 00:00:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 14:15:42, Sys 0 00:00:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31549  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31549  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    892167 
+	   Memory (MB)          :   245         245       256 
+...

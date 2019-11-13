@@ -1,0 +1,53 @@
+000 (066.934.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.934.000) 08/03 14:16:48 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.934.000) 08/05 22:27:33 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.934.000) 08/09 10:35:33 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.934.000) 08/09 13:04:53 Job was released.
+	via condor_release (by user bomeara)
+...
+022 (066.934.000) 08/14 14:07:46 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_7@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+024 (066.934.000) 08/14 14:07:54 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_7@omearaclusterg, rescheduling job
+...
+001 (066.934.000) 08/16 11:22:40 Job executing on host: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2256_01bf_4>
+...
+006 (066.934.000) 08/16 11:22:48 Image size of job updated: 220196
+	216  -  MemoryUsage of job (MB)
+	220196  -  ResidentSetSize of job (KB)
+...
+006 (066.934.000) 08/16 11:27:48 Image size of job updated: 230316
+	225  -  MemoryUsage of job (MB)
+	230316  -  ResidentSetSize of job (KB)
+...
+006 (066.934.000) 08/16 18:58:34 Image size of job updated: 230776
+	226  -  MemoryUsage of job (MB)
+	230776  -  ResidentSetSize of job (KB)
+...
+005 (066.934.000) 08/17 09:23:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 21:58:46, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 21:58:46, Sys 0 00:00:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	29144  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	29144  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    47           4    892992 
+	   Memory (MB)          :   226           1       128 
+...

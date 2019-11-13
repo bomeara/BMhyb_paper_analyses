@@ -1,0 +1,8 @@
+Registered S3 method overwritten by 'geiger':
+  method            from
+  unique.multiPhylo ape 
+Error in grepl(names(starting.values)[i], c("sigma.sq", "vh", "bt", "SE")) : 
+  invalid 'pattern' argument
+Calls: DoRunTemplated -> <Anonymous> -> OptimizeThoroughly -> grepl
+In addition: There were 40 warnings (use warnings() to see them)
+Execution halted

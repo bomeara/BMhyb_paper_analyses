@@ -1,0 +1,42 @@
+[1] "args"
+[1] "66"   "1273"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+       mu  sigma.sq        SE        bt        vh 
+0.6350488 1.6025267 0.8012634 1.0000000 0.8012634 
+       step   negloglik          mu    sigma.sq          SE          bt 
+ 1.00000000 25.83951730  0.80903269  0.00631397  0.04756323  1.25217287 
+         vh 
+ 0.95106824 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 2.000000000 23.870777730  0.914215966  0.006585659  0.046808922  0.215205827 
+          vh 
+ 0.003651313 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 3.000000000 23.870777730  0.914215966  0.006585659  0.046808922  0.215205827 
+          vh 
+ 0.003651313 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 4.000000000 23.870777730  0.914215966  0.006585659  0.046808922  0.215205827 
+          vh 
+ 0.003651313 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+       mu  sigma.sq        bt        vh 
+0.6350488 1.6025267 1.0000000 0.8012634 
+       step   negloglik          mu    sigma.sq          bt          vh 
+  1.0000000 216.2685018   0.6350488   1.6025267   1.0000000   0.8012634 
+       step   negloglik          mu    sigma.sq          bt          vh 
+  2.0000000 216.2685018   0.6350488   1.6025267   1.0000000   0.8012634 
+       step   negloglik          mu    sigma.sq          bt          vh 
+  3.0000000 216.2685018   0.6350488   1.6025267   1.0000000   0.8012634 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+       mu  sigma.sq        SE        vh 
+0.6350488 1.6025267 0.8012634 0.8012634 
+        step    negloglik           mu     sigma.sq           SE           vh 
+ 1.000000000 31.989343428 -0.203076461  0.009935775  0.044591383  2.958610570 
+[1] "New improvement found, resetting step counter"
+       step   negloglik          mu    sigma.sq          SE          vh 
+ 2.00000000 25.37519366  0.90703233  0.00628830  0.04727168  2.03244768 

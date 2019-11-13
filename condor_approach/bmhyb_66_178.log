@@ -1,0 +1,57 @@
+000 (066.178.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.178.000) 07/26 17:19:48 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+006 (066.178.000) 07/26 17:19:57 Image size of job updated: 222880
+	218  -  MemoryUsage of job (MB)
+	222880  -  ResidentSetSize of job (KB)
+...
+006 (066.178.000) 07/26 17:29:59 Image size of job updated: 228872
+	224  -  MemoryUsage of job (MB)
+	228872  -  ResidentSetSize of job (KB)
+...
+006 (066.178.000) 07/26 17:50:01 Image size of job updated: 228884
+	224  -  MemoryUsage of job (MB)
+	228884  -  ResidentSetSize of job (KB)
+...
+006 (066.178.000) 07/28 22:40:56 Image size of job updated: 228892
+	224  -  MemoryUsage of job (MB)
+	228884  -  ResidentSetSize of job (KB)
+...
+006 (066.178.000) 07/29 13:14:48 Image size of job updated: 228972
+	224  -  MemoryUsage of job (MB)
+	228884  -  ResidentSetSize of job (KB)
+...
+022 (066.178.000) 08/01 09:58:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_8@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+024 (066.178.000) 08/01 10:38:29 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_8@omearaclusteri, rescheduling job
+...
+001 (066.178.000) 08/01 16:52:23 Job executing on host: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+...
+022 (066.178.000) 08/04 11:06:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_6@omearalab11 <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+...
+023 (066.178.000) 08/04 11:06:19 Job reconnected to slot1_6@omearalab11
+    startd address: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+    starter address: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21470_4ea2_113>
+...
+005 (066.178.000) 08/10 05:57:27 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 8 12:59:33, Sys 0 00:00:33  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 8 12:59:33, Sys 0 00:00:33  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5853  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	5853  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    24          75   1811025 
+	   Memory (MB)          :   245         245       256 
+...

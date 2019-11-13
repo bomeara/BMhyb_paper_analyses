@@ -1,0 +1,119 @@
+000 (066.124.000) 07/26 17:14:45 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.124.000) 07/26 17:14:54 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+006 (066.124.000) 07/26 17:15:03 Image size of job updated: 220500
+	216  -  MemoryUsage of job (MB)
+	220428  -  ResidentSetSize of job (KB)
+...
+006 (066.124.000) 07/26 17:25:05 Image size of job updated: 225960
+	221  -  MemoryUsage of job (MB)
+	225888  -  ResidentSetSize of job (KB)
+...
+006 (066.124.000) 07/26 17:40:06 Image size of job updated: 225976
+	221  -  MemoryUsage of job (MB)
+	225904  -  ResidentSetSize of job (KB)
+...
+006 (066.124.000) 07/29 21:37:56 Image size of job updated: 229824
+	225  -  MemoryUsage of job (MB)
+	229808  -  ResidentSetSize of job (KB)
+...
+006 (066.124.000) 07/31 20:32:42 Image size of job updated: 231156
+	226  -  MemoryUsage of job (MB)
+	231140  -  ResidentSetSize of job (KB)
+...
+022 (066.124.000) 08/01 10:05:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_16@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+022 (066.124.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_16@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+024 (066.124.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_16@omearaclusterc, rescheduling job
+...
+001 (066.124.000) 08/01 16:52:22 Job executing on host: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=69000_d6dc_4>
+...
+022 (066.124.000) 08/02 16:21:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_4@omearaclusterl <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=69000_d6dc_4>
+...
+024 (066.124.000) 08/02 17:01:28 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_4@omearaclusterl, rescheduling job
+...
+001 (066.124.000) 08/02 22:12:41 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+022 (066.124.000) 08/04 11:03:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.124.000) 08/04 11:06:38 Job reconnected to slot1_11@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_170>
+...
+022 (066.124.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_11@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.124.000) 08/14 14:07:57 Job reconnected to slot1_11@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_170>
+...
+022 (066.124.000) 08/26 11:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+024 (066.124.000) 08/26 12:08:17 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_11@omearaclusterg, rescheduling job
+...
+001 (066.124.000) 08/26 15:37:45 Job executing on host: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2142_cff3_4>
+...
+022 (066.124.000) 09/04 07:55:34 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_9@omearaclusterb <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2142_cff3_4>
+...
+024 (066.124.000) 09/04 08:35:37 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_9@omearaclusterb, rescheduling job
+...
+001 (066.124.000) 09/04 08:45:34 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2343_ae7c_4>
+...
+022 (066.124.000) 09/04 12:12:32 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_6@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2343_ae7c_4>
+...
+024 (066.124.000) 09/04 12:52:32 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_6@omearaclusterc, rescheduling job
+...
+001 (066.124.000) 09/04 13:02:39 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=2440_372c_4>
+...
+001 (066.124.000) 09/06 15:20:30 Job executing on host: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2289_a45f_4>
+...
+022 (066.124.000) 09/08 08:36:38 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_6@omearaclusterh <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2289_a45f_4>
+...
+023 (066.124.000) 09/08 08:39:58 Job reconnected to slot1_6@omearaclusterh
+    startd address: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2289_a45f_4>
+    starter address: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2538_0020_8>
+...
+005 (066.124.000) 09/09 07:24:35 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 2 15:58:00, Sys 0 00:00:34  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 15:58:00, Sys 0 00:00:34  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1675  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	1675  -  Total Bytes Sent By Job
+	16954  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    20          75    892730 
+	   Memory (MB)          :   245         245       256 
+...

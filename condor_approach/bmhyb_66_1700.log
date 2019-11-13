@@ -1,0 +1,56 @@
+000 (066.1700.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1700.000) 08/03 14:17:26 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1700.000) 08/05 22:28:13 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1700.000) 08/09 10:36:24 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1700.000) 08/09 13:05:32 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1700.000) 09/23 13:37:59 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1700.000) 09/24 14:49:48 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1700.000) 09/30 13:02:45 Job executing on host: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2227_1d80_4>
+...
+006 (066.1700.000) 09/30 13:02:53 Image size of job updated: 220616
+	216  -  MemoryUsage of job (MB)
+	220616  -  ResidentSetSize of job (KB)
+...
+006 (066.1700.000) 09/30 13:07:53 Image size of job updated: 222612
+	218  -  MemoryUsage of job (MB)
+	222612  -  ResidentSetSize of job (KB)
+...
+006 (066.1700.000) 09/30 15:28:07 Image size of job updated: 227972
+	223  -  MemoryUsage of job (MB)
+	227972  -  ResidentSetSize of job (KB)
+...
+006 (066.1700.000) 09/30 18:03:23 Image size of job updated: 231580
+	227  -  MemoryUsage of job (MB)
+	231580  -  ResidentSetSize of job (KB)
+...
+005 (066.1700.000) 09/30 20:34:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 07:31:11, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 07:31:11, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28564  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28564  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46           4    890607 
+	   Memory (MB)          :   227           1       128 
+...

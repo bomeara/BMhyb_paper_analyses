@@ -1,0 +1,57 @@
+000 (066.922.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.922.000) 08/03 14:16:47 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.922.000) 08/05 22:27:33 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.922.000) 08/09 10:35:32 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.922.000) 08/09 13:04:52 Job was released.
+	via condor_release (by user bomeara)
+...
+022 (066.922.000) 08/14 14:07:46 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_15@omearaclusterh <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2256_01bf_4>
+...
+024 (066.922.000) 08/14 14:07:53 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_15@omearaclusterh, rescheduling job
+...
+001 (066.922.000) 08/15 21:11:25 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2361_0731_4>
+...
+006 (066.922.000) 08/15 21:11:33 Image size of job updated: 221952
+	217  -  MemoryUsage of job (MB)
+	221952  -  ResidentSetSize of job (KB)
+...
+006 (066.922.000) 08/15 21:26:35 Image size of job updated: 233572
+	229  -  MemoryUsage of job (MB)
+	233572  -  ResidentSetSize of job (KB)
+...
+006 (066.922.000) 08/15 21:56:38 Image size of job updated: 233584
+	229  -  MemoryUsage of job (MB)
+	233584  -  ResidentSetSize of job (KB)
+...
+006 (066.922.000) 09/02 04:52:04 Image size of job updated: 440068
+	229  -  MemoryUsage of job (MB)
+	233584  -  ResidentSetSize of job (KB)
+...
+005 (066.922.000) 09/02 04:52:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 17 07:05:07, Sys 0 00:02:36  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 17 07:05:07, Sys 0 00:02:36  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28261  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28261  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46           4    888433 
+	   Memory (MB)          :   229           1       128 
+...

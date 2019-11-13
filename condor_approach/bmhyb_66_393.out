@@ -1,0 +1,45 @@
+[1] "args"
+[1] "66"  "393"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE         bt         vh 
+0.75539666 0.01187626 0.00593813 1.00000000 0.00593813 
+         step     negloglik            mu      sigma.sq            SE 
+ 1.000000e+00 -4.512048e+01  8.823151e-03  8.282222e-03  5.960495e-09 
+           bt            vh 
+ 1.655573e+00  6.495472e-01 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 2.000000e+00 -4.722452e+01 -4.698553e-01  8.283097e-03  1.496124e-06 
+           bt            vh 
+ 4.123067e+00  7.227546e-02 
+         step     negloglik            mu      sigma.sq            SE 
+ 3.000000e+00 -4.722452e+01 -4.698553e-01  8.283097e-03  1.496124e-06 
+           bt            vh 
+ 4.123067e+00  7.227546e-02 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 4.000000e+00 -4.728407e+01 -4.254723e-01  8.514278e-03  2.241000e-07 
+           bt            vh 
+ 3.758845e+00  7.353401e-02 
+         step     negloglik            mu      sigma.sq            SE 
+ 5.000000e+00 -4.728407e+01 -4.254723e-01  8.514278e-03  2.241000e-07 
+           bt            vh 
+ 3.758845e+00  7.353401e-02 
+         step     negloglik            mu      sigma.sq            SE 
+ 6.000000e+00 -4.728407e+01 -4.254723e-01  8.514278e-03  2.241000e-07 
+           bt            vh 
+ 3.758845e+00  7.353401e-02 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         bt         vh 
+0.75539666 0.01187626 1.00000000 0.00593813 
+         step     negloglik            mu      sigma.sq            bt 
+  1.000000000 -47.081794969  -0.440017790   0.008208503   3.347201567 
+           vh 
+  0.092243824 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            bt 
+  2.000000000 -47.248490202  -0.310935807   0.008220417   3.674043017 
+           vh 
+  0.075662386 

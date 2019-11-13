@@ -1,0 +1,65 @@
+000 (066.065.000) 07/26 17:14:45 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.065.000) 07/26 17:14:50 Job executing on host: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2084_0775_4>
+...
+006 (066.065.000) 07/26 17:14:59 Image size of job updated: 243308
+	238  -  MemoryUsage of job (MB)
+	243308  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/26 17:40:01 Image size of job updated: 246444
+	241  -  MemoryUsage of job (MB)
+	246444  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/26 18:20:05 Image size of job updated: 246456
+	241  -  MemoryUsage of job (MB)
+	246456  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/29 15:49:26 Image size of job updated: 246588
+	241  -  MemoryUsage of job (MB)
+	246456  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/29 21:05:00 Image size of job updated: 248920
+	241  -  MemoryUsage of job (MB)
+	246456  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/29 21:10:01 Image size of job updated: 248924
+	241  -  MemoryUsage of job (MB)
+	246456  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/29 21:15:02 Image size of job updated: 248952
+	241  -  MemoryUsage of job (MB)
+	246456  -  ResidentSetSize of job (KB)
+...
+006 (066.065.000) 07/31 00:52:53 Image size of job updated: 251060
+	243  -  MemoryUsage of job (MB)
+	248564  -  ResidentSetSize of job (KB)
+...
+022 (066.065.000) 08/01 09:57:36 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_9@omearaclusterb <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2084_0775_4>
+...
+024 (066.065.000) 08/01 10:37:56 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_9@omearaclusterb, rescheduling job
+...
+001 (066.065.000) 08/01 16:52:19 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+006 (066.065.000) 08/07 01:34:06 Image size of job updated: 456204
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.065.000) 08/07 01:34:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 5 08:29:36, Sys 0 00:01:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 5 08:29:36, Sys 0 00:01:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31877  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31877  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    888358 
+	   Memory (MB)          :   245         245       256 
+...

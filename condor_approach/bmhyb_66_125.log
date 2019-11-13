@@ -1,0 +1,57 @@
+000 (066.125.000) 07/26 17:14:45 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.125.000) 07/26 17:14:54 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+006 (066.125.000) 07/26 17:15:03 Image size of job updated: 243244
+	238  -  MemoryUsage of job (MB)
+	243164  -  ResidentSetSize of job (KB)
+...
+022 (066.125.000) 08/01 10:05:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_18@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+001 (066.125.000) 08/01 16:52:22 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+022 (066.125.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_5@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.125.000) 08/14 14:07:57 Job reconnected to slot1_5@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_143>
+...
+022 (066.125.000) 08/26 11:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_5@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+024 (066.125.000) 08/26 12:08:02 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_5@omearaclusterg, rescheduling job
+...
+001 (066.125.000) 08/26 18:29:47 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+001 (066.125.000) 09/06 15:20:30 Job executing on host: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+...
+022 (066.125.000) 09/08 08:36:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_5@omearaclustera <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+...
+023 (066.125.000) 09/08 08:42:10 Job reconnected to slot1_5@omearaclustera
+    startd address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+    starter address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2681_c1c6_7>
+...
+005 (066.125.000) 09/14 21:37:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 8 05:52:29, Sys 0 00:02:57  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 8 05:52:29, Sys 0 00:02:57  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31490  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31490  -  Total Bytes Sent By Job
+	9688  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    891763 
+	   Memory (MB)          :   245         245       256 
+...

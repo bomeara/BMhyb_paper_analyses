@@ -1,0 +1,45 @@
+000 (066.267.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.267.000) 07/27 00:52:55 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+006 (066.267.000) 07/27 00:53:04 Image size of job updated: 242900
+	238  -  MemoryUsage of job (MB)
+	242900  -  ResidentSetSize of job (KB)
+...
+006 (066.267.000) 07/27 01:08:05 Image size of job updated: 246884
+	242  -  MemoryUsage of job (MB)
+	246884  -  ResidentSetSize of job (KB)
+...
+006 (066.267.000) 07/27 01:28:08 Image size of job updated: 246896
+	242  -  MemoryUsage of job (MB)
+	246896  -  ResidentSetSize of job (KB)
+...
+006 (066.267.000) 07/30 10:01:36 Image size of job updated: 249428
+	244  -  MemoryUsage of job (MB)
+	249428  -  ResidentSetSize of job (KB)
+...
+022 (066.267.000) 08/01 09:57:52 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_9@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+024 (066.267.000) 08/01 10:38:12 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_9@omearashiny1, rescheduling job
+...
+001 (066.267.000) 08/01 16:52:23 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+005 (066.267.000) 08/03 06:30:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 13:34:07, Sys 0 00:00:18  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 13:34:07, Sys 0 00:00:18  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32201  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32201  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75    888417 
+	   Memory (MB)          :   245         245       256 
+...

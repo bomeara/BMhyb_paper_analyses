@@ -1,0 +1,81 @@
+000 (066.383.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.383.000) 07/28 11:44:50 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+006 (066.383.000) 07/28 11:44:58 Image size of job updated: 243292
+	238  -  MemoryUsage of job (MB)
+	243292  -  ResidentSetSize of job (KB)
+...
+006 (066.383.000) 07/28 13:50:10 Image size of job updated: 245080
+	240  -  MemoryUsage of job (MB)
+	245080  -  ResidentSetSize of job (KB)
+...
+006 (066.383.000) 07/28 18:00:35 Image size of job updated: 245096
+	240  -  MemoryUsage of job (MB)
+	245096  -  ResidentSetSize of job (KB)
+...
+006 (066.383.000) 07/28 22:41:03 Image size of job updated: 245168
+	240  -  MemoryUsage of job (MB)
+	245096  -  ResidentSetSize of job (KB)
+...
+006 (066.383.000) 07/29 13:14:48 Image size of job updated: 245188
+	240  -  MemoryUsage of job (MB)
+	245096  -  ResidentSetSize of job (KB)
+...
+006 (066.383.000) 07/30 12:16:58 Image size of job updated: 245340
+	240  -  MemoryUsage of job (MB)
+	245096  -  ResidentSetSize of job (KB)
+...
+022 (066.383.000) 08/01 09:58:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_17@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+024 (066.383.000) 08/01 10:38:29 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_17@omearaclusteri, rescheduling job
+...
+001 (066.383.000) 08/01 16:52:23 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+022 (066.383.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_15@omearaclusterj <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+023 (066.383.000) 08/14 14:08:01 Job reconnected to slot1_15@omearaclusterj
+    startd address: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+    starter address: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69295_589b_688>
+...
+001 (066.383.000) 09/06 15:21:27 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2350_7ba6_4>
+...
+022 (066.383.000) 09/08 08:37:27 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2350_7ba6_4>
+...
+023 (066.383.000) 09/08 08:41:44 Job reconnected to slot1_1@omearaclustere
+    startd address: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2350_7ba6_4>
+    starter address: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2604_80e3_3>
+...
+022 (066.383.000) 09/20 13:16:43 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2350_7ba6_4>
+...
+024 (066.383.000) 09/20 13:56:44 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_1@omearaclustere, rescheduling job
+...
+001 (066.383.000) 09/20 20:19:04 Job executing on host: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2386_2d0f_4>
+...
+005 (066.383.000) 10/13 15:32:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 22 18:29:17, Sys 0 00:03:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 22 18:29:17, Sys 0 00:03:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	33383  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	33383  -  Total Bytes Sent By Job
+	9688  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    51          75    892794 
+	   Memory (MB)          :   245         245       256 
+...

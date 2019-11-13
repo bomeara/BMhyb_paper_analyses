@@ -1,0 +1,45 @@
+000 (066.452.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.452.000) 07/30 21:43:37 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+006 (066.452.000) 07/30 21:43:46 Image size of job updated: 220976
+	216  -  MemoryUsage of job (MB)
+	220976  -  ResidentSetSize of job (KB)
+...
+006 (066.452.000) 07/30 21:48:47 Image size of job updated: 225080
+	220  -  MemoryUsage of job (MB)
+	225080  -  ResidentSetSize of job (KB)
+...
+006 (066.452.000) 07/30 21:53:48 Image size of job updated: 225096
+	220  -  MemoryUsage of job (MB)
+	225096  -  ResidentSetSize of job (KB)
+...
+022 (066.452.000) 08/01 10:03:40 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+022 (066.452.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_11@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+024 (066.452.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_11@omearashiny1, rescheduling job
+...
+001 (066.452.000) 08/01 16:52:23 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+005 (066.452.000) 08/02 21:59:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 05:04:42, Sys 0 00:00:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 05:04:42, Sys 0 00:00:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	30349  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	30349  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    48          75    888358 
+	   Memory (MB)          :   245         245       256 
+...

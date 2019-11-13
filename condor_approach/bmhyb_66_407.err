@@ -1,0 +1,8 @@
+Registered S3 method overwritten by 'geiger':
+  method            from
+  unique.multiPhylo ape 
+Error in stats::optim(par = starting.values, fn = TryComputeLikelihood,  : 
+  non-finite value supplied by optim
+Calls: DoRunTemplated -> <Anonymous> -> OptimizeThoroughly -> <Anonymous>
+In addition: There were 17 warnings (use warnings() to see them)
+Execution halted

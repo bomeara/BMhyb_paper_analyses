@@ -1,0 +1,28 @@
+Registered S3 method overwritten by 'geiger':
+  method            from
+  unique.multiPhylo ape 
+Error in stats::optim(par = starting.values, fn = TryComputeLikelihood,  : 
+  non-finite value supplied by optim
+Calls: DoRunTemplated -> <Anonymous> -> OptimizeThoroughly -> <Anonymous>
+In addition: Warning messages:
+1: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -2.24773957655069. We are converting all of the negative edges to zero length.
+2: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.955611505807485. We are converting all of the negative edges to zero length.
+3: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.346323423218577. We are converting all of the negative edges to zero length.
+4: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.0539744774895785. We are converting all of the negative edges to zero length.
+5: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -3.9491990322182. We are converting all of the negative edges to zero length.
+6: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -1.78936641970504. We are converting all of the negative edges to zero length.
+7: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.770922272419986. We are converting all of the negative edges to zero length.
+8: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.282251836790373. We are converting all of the negative edges to zero length.
+9: In ScaleAllEdges(phy.graph = phy.graph, sigma.sq = sigma.sq, mu = mu,  :
+  Some of the edges were negative in length. If this is tiny, don't worry about it; if not, do. The negative edge with largest magnitude was -0.0433057336257269. We are converting all of the negative edges to zero length.
+10: In stats::runif(length(starting.values), min = starting.values -  :
+  NAs produced
+Execution halted

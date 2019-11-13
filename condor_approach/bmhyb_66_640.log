@@ -1,0 +1,43 @@
+000 (066.640.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.640.000) 08/02 06:33:25 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+006 (066.640.000) 08/02 06:33:33 Image size of job updated: 222692
+	218  -  MemoryUsage of job (MB)
+	222692  -  ResidentSetSize of job (KB)
+...
+006 (066.640.000) 08/02 07:18:37 Image size of job updated: 227036
+	222  -  MemoryUsage of job (MB)
+	227036  -  ResidentSetSize of job (KB)
+...
+006 (066.640.000) 08/02 08:43:45 Image size of job updated: 227048
+	222  -  MemoryUsage of job (MB)
+	227048  -  ResidentSetSize of job (KB)
+...
+022 (066.640.000) 08/04 11:05:30 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_23@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.640.000) 08/04 11:07:47 Job reconnected to slot1_23@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_168>
+...
+006 (066.640.000) 08/07 02:07:06 Image size of job updated: 433536
+	222  -  MemoryUsage of job (MB)
+	227048  -  ResidentSetSize of job (KB)
+...
+005 (066.640.000) 08/07 02:07:06 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 4 19:25:14, Sys 0 00:00:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 4 19:25:14, Sys 0 00:00:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1958  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	1958  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    20           4    891678 
+	   Memory (MB)          :   222           1       128 
+...

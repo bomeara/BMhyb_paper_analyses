@@ -1,0 +1,55 @@
+000 (066.668.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.668.000) 08/03 14:17:34 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.668.000) 08/05 22:28:20 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.668.000) 08/07 00:12:47 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+006 (066.668.000) 08/07 00:12:56 Image size of job updated: 220912
+	216  -  MemoryUsage of job (MB)
+	220912  -  ResidentSetSize of job (KB)
+...
+006 (066.668.000) 08/07 00:17:57 Image size of job updated: 224004
+	219  -  MemoryUsage of job (MB)
+	224004  -  ResidentSetSize of job (KB)
+...
+022 (066.668.000) 08/07 07:54:56 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_10@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+024 (066.668.000) 08/07 08:34:56 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_10@omearaclusteri, rescheduling job
+...
+012 (066.668.000) 08/09 10:36:31 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.668.000) 08/09 13:04:43 Job executing on host: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=2256_01bf_4>
+...
+013 (066.668.000) 08/09 13:05:37 Job was released.
+	via condor_release (by user bomeara)
+...
+006 (066.668.000) 08/09 13:09:53 Image size of job updated: 231388
+	226  -  MemoryUsage of job (MB)
+	231016  -  ResidentSetSize of job (KB)
+...
+005 (066.668.000) 08/09 19:26:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 06:20:53, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 06:20:53, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28107  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28107  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    892992 
+	   Memory (MB)          :   226         220       256 
+...

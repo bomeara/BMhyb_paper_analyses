@@ -1,0 +1,53 @@
+000 (066.081.000) 07/26 17:14:45 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.081.000) 07/26 17:14:51 Job executing on host: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+006 (066.081.000) 07/26 17:15:00 Image size of job updated: 243248
+	238  -  MemoryUsage of job (MB)
+	243248  -  ResidentSetSize of job (KB)
+...
+006 (066.081.000) 07/26 17:30:01 Image size of job updated: 243352
+	238  -  MemoryUsage of job (MB)
+	243352  -  ResidentSetSize of job (KB)
+...
+006 (066.081.000) 07/26 17:55:05 Image size of job updated: 243368
+	238  -  MemoryUsage of job (MB)
+	243368  -  ResidentSetSize of job (KB)
+...
+022 (066.081.000) 08/01 10:04:57 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+022 (066.081.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_11@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+024 (066.081.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_11@omearaclusterf, rescheduling job
+...
+001 (066.081.000) 08/01 16:52:21 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+022 (066.081.000) 08/04 11:06:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_4@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+023 (066.081.000) 08/04 11:06:15 Job reconnected to slot1_4@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=70039_8fb9_592>
+...
+005 (066.081.000) 08/04 15:50:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 22:51:42, Sys 0 00:00:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 22:51:42, Sys 0 00:00:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32339  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32339  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75    888417 
+	   Memory (MB)          :   245         245       256 
+...

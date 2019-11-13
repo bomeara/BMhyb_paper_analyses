@@ -1,0 +1,2438 @@
+000 (066.1595.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1595.000) 08/03 14:17:21 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1595.000) 08/05 22:28:08 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1595.000) 08/09 10:36:17 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1595.000) 08/09 13:05:27 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1595.000) 09/23 13:38:09 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.1595.000) 09/24 14:49:56 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+013 (066.1595.000) 09/24 14:50:01 Job was released.
+	via condor_release (by user bomeara)
+...
+006 (066.1595.000) 09/24 14:50:05 Image size of job updated: 243528
+	238  -  MemoryUsage of job (MB)
+	243528  -  ResidentSetSize of job (KB)
+...
+006 (066.1595.000) 09/24 15:20:08 Image size of job updated: 247100
+	242  -  MemoryUsage of job (MB)
+	247100  -  ResidentSetSize of job (KB)
+...
+006 (066.1595.000) 09/24 16:10:13 Image size of job updated: 247116
+	242  -  MemoryUsage of job (MB)
+	247116  -  ResidentSetSize of job (KB)
+...
+022 (066.1595.000) 10/04 13:15:43 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_19@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+024 (066.1595.000) 10/04 13:55:43 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_19@omearaclusterc, rescheduling job
+...
+001 (066.1595.000) 10/04 13:56:24 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:27:48 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:27:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:27:59 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:00 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:00 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:01 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:01 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:02 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:02 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:03 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:04 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:04 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:04 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:04 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:04 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:05 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:06 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:07 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:08 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:09 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:10 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:11 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:12 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:13 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:14 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:15 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:15 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:16 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:17 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:17 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:18 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:18 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:19 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:20 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:21 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:22 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:22 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:23 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:23 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:24 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:25 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+022 (066.1595.000) 10/21 22:28:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+022 (066.1595.000) 10/21 22:28:26 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+...
+023 (066.1595.000) 10/21 22:28:26 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+004 (066.1595.000) 10/21 22:28:26 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 17 08:09:15, Sys 0 00:02:36  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    59          75    892326 
+	   Memory (MB)          :   245         245       256 
+...
+023 (066.1595.000) 10/21 22:28:26 Job reconnected to slot1_24@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2359_a800_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2852_3ded_26>
+...
+004 (066.1595.000) 10/21 22:28:26 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 17 08:13:16, Sys 0 00:02:36  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    59          59    892326 
+	   Memory (MB)          :   245         245       256 
+...
+001 (066.1595.000) 10/21 22:36:41 Job executing on host: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2154_0b16_4>
+...
+022 (066.1595.000) 11/03 09:39:39 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@omearaclusterb <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2154_0b16_4>
+...
+023 (066.1595.000) 11/03 09:45:08 Job reconnected to slot1_1@omearaclusterb
+    startd address: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2154_0b16_4>
+    starter address: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2486_5c9e_131>
+...
+005 (066.1595.000) 11/03 12:46:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 12 14:59:45, Sys 0 00:03:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 12 14:59:45, Sys 0 00:03:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	33556  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	33556  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    51          75    891117 
+	   Memory (MB)          :   245         245       256 
+...

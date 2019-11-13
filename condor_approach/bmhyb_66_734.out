@@ -1,0 +1,45 @@
+[1] "args"
+[1] "66"  "734"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+         mu    sigma.sq          SE          bt          vh 
+0.649153876 0.008063347 0.004031674 1.000000000 0.004031674 
+         step     negloglik            mu      sigma.sq            SE 
+ 1.0000000000 -9.9014348411  0.0454186681  0.0066196274  0.0001358717 
+           bt            vh 
+ 1.2930140225  0.0002002749 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 2.0000000000 -9.9236445602  0.0186195568  0.0066214369  0.0001408684 
+           bt            vh 
+ 1.3320932040  0.0006445173 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 3.0000000000 -9.9654624375  0.0068354206  0.0068633258  0.0001184862 
+           bt            vh 
+ 1.3333759115  0.0005426271 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 4.000000e+00 -1.002260e+01 -1.330171e-02  7.468958e-03  1.256404e-04 
+           bt            vh 
+ 1.360288e+00  1.206232e-04 
+         step     negloglik            mu      sigma.sq            SE 
+ 5.000000e+00 -1.002260e+01 -1.330171e-02  7.468958e-03  1.256404e-04 
+           bt            vh 
+ 1.360288e+00  1.206232e-04 
+         step     negloglik            mu      sigma.sq            SE 
+ 6.000000e+00 -1.002260e+01 -1.330171e-02  7.468958e-03  1.256404e-04 
+           bt            vh 
+ 1.360288e+00  1.206232e-04 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+         mu    sigma.sq          bt          vh 
+0.649153876 0.008063347 1.000000000 0.004031674 
+         step     negloglik            mu      sigma.sq            bt 
+ 1.0000000000 -9.6929787478 -0.1913735512  0.0079274303  1.4486184146 
+           vh 
+ 0.0003038234 
+         step     negloglik            mu      sigma.sq            bt 
+ 2.0000000000 -9.6929787478 -0.1913735512  0.0079274303  1.4486184146 
+           vh 
+ 0.0003038234 

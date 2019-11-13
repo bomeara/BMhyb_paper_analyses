@@ -1,0 +1,79 @@
+000 (066.239.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.239.000) 07/26 19:52:50 Job executing on host: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2127_8608_4>
+...
+006 (066.239.000) 07/26 19:52:58 Image size of job updated: 243700
+	238  -  MemoryUsage of job (MB)
+	243700  -  ResidentSetSize of job (KB)
+...
+006 (066.239.000) 07/26 20:08:00 Image size of job updated: 243780
+	239  -  MemoryUsage of job (MB)
+	243780  -  ResidentSetSize of job (KB)
+...
+006 (066.239.000) 07/26 20:38:03 Image size of job updated: 243796
+	239  -  MemoryUsage of job (MB)
+	243796  -  ResidentSetSize of job (KB)
+...
+006 (066.239.000) 07/28 11:52:06 Image size of job updated: 243968
+	239  -  MemoryUsage of job (MB)
+	243796  -  ResidentSetSize of job (KB)
+...
+006 (066.239.000) 07/29 02:58:57 Image size of job updated: 244176
+	239  -  MemoryUsage of job (MB)
+	243796  -  ResidentSetSize of job (KB)
+...
+022 (066.239.000) 08/01 09:58:41 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@omearaclustera <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2127_8608_4>
+...
+024 (066.239.000) 08/01 10:39:01 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_1@omearaclustera, rescheduling job
+...
+001 (066.239.000) 08/01 16:52:23 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+022 (066.239.000) 08/04 11:06:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_8@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+023 (066.239.000) 08/04 11:06:19 Job reconnected to slot1_8@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=70039_8fb9_596>
+...
+022 (066.239.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_8@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+023 (066.239.000) 08/14 14:07:59 Job reconnected to slot1_8@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=70039_8fb9_596>
+...
+001 (066.239.000) 09/06 15:20:31 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=2387_dca7_4>
+...
+022 (066.239.000) 09/08 08:36:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=2387_dca7_4>
+...
+023 (066.239.000) 09/08 08:41:31 Job reconnected to slot1_11@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=2387_dca7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=2997_6853_13>
+...
+006 (066.239.000) 10/05 16:26:40 Image size of job updated: 250244
+	245  -  MemoryUsage of job (MB)
+	250164  -  ResidentSetSize of job (KB)
+...
+005 (066.239.000) 10/06 14:07:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 29 21:46:08, Sys 0 00:04:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 29 21:46:08, Sys 0 00:04:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32270  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32270  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75    888593 
+	   Memory (MB)          :   245         245       256 
+...

@@ -1,0 +1,67 @@
+000 (066.1233.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1233.000) 08/03 14:17:03 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1233.000) 08/05 22:27:50 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1233.000) 08/09 10:35:53 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1233.000) 08/09 13:05:08 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1233.000) 08/30 23:23:35 Job executing on host: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+...
+006 (066.1233.000) 08/30 23:23:44 Image size of job updated: 243168
+	238  -  MemoryUsage of job (MB)
+	243168  -  ResidentSetSize of job (KB)
+...
+006 (066.1233.000) 08/30 23:28:45 Image size of job updated: 243276
+	238  -  MemoryUsage of job (MB)
+	243276  -  ResidentSetSize of job (KB)
+...
+006 (066.1233.000) 09/03 04:31:47 Image size of job updated: 247724
+	242  -  MemoryUsage of job (MB)
+	247724  -  ResidentSetSize of job (KB)
+...
+006 (066.1233.000) 09/05 13:42:31 Image size of job updated: 248620
+	243  -  MemoryUsage of job (MB)
+	248620  -  ResidentSetSize of job (KB)
+...
+001 (066.1233.000) 09/06 16:49:29 Job executing on host: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
+...
+006 (066.1233.000) 09/06 16:59:38 Image size of job updated: 250592
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+006 (066.1233.000) 09/06 17:09:40 Image size of job updated: 250608
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+022 (066.1233.000) 09/08 08:35:16 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@omearaclusterd <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
+...
+023 (066.1233.000) 09/08 08:41:04 Job reconnected to slot1_2@omearaclusterd
+    startd address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
+    starter address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2963_7392_4>
+...
+005 (066.1233.000) 09/15 07:00:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 8 13:52:48, Sys 0 00:01:45  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 8 13:52:48, Sys 0 00:01:45  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31335  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31335  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          47    891642 
+	   Memory (MB)          :   245         245       256 
+...

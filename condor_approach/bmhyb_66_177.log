@@ -1,0 +1,49 @@
+000 (066.177.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.177.000) 07/26 17:19:48 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+006 (066.177.000) 07/26 17:19:57 Image size of job updated: 243056
+	238  -  MemoryUsage of job (MB)
+	243056  -  ResidentSetSize of job (KB)
+...
+006 (066.177.000) 07/29 07:21:37 Image size of job updated: 248700
+	243  -  MemoryUsage of job (MB)
+	248684  -  ResidentSetSize of job (KB)
+...
+006 (066.177.000) 07/29 13:14:48 Image size of job updated: 249004
+	243  -  MemoryUsage of job (MB)
+	248684  -  ResidentSetSize of job (KB)
+...
+006 (066.177.000) 07/29 13:19:39 Image size of job updated: 249008
+	243  -  MemoryUsage of job (MB)
+	248684  -  ResidentSetSize of job (KB)
+...
+006 (066.177.000) 07/29 13:34:41 Image size of job updated: 249016
+	243  -  MemoryUsage of job (MB)
+	248684  -  ResidentSetSize of job (KB)
+...
+022 (066.177.000) 08/01 09:58:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_7@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2256_01bf_4>
+...
+024 (066.177.000) 08/01 10:38:29 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_7@omearaclusteri, rescheduling job
+...
+001 (066.177.000) 08/01 16:52:23 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+005 (066.177.000) 08/05 09:35:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 3 16:36:10, Sys 0 00:00:46  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 3 16:36:10, Sys 0 00:00:46  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31797  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31797  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    891678 
+	   Memory (MB)          :   245         245       256 
+...

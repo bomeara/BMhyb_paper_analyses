@@ -1,0 +1,43 @@
+000 (066.529.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+022 (066.529.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_12@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+024 (066.529.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_12@omearaclusterf, rescheduling job
+...
+001 (066.529.000) 08/01 16:52:24 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+006 (066.529.000) 08/01 16:52:32 Image size of job updated: 234120
+	229  -  MemoryUsage of job (MB)
+	234120  -  ResidentSetSize of job (KB)
+...
+006 (066.529.000) 08/01 16:57:32 Image size of job updated: 248032
+	243  -  MemoryUsage of job (MB)
+	248032  -  ResidentSetSize of job (KB)
+...
+006 (066.529.000) 08/02 00:53:23 Image size of job updated: 248164
+	243  -  MemoryUsage of job (MB)
+	248164  -  ResidentSetSize of job (KB)
+...
+006 (066.529.000) 08/02 03:48:41 Image size of job updated: 249172
+	244  -  MemoryUsage of job (MB)
+	249172  -  ResidentSetSize of job (KB)
+...
+005 (066.529.000) 08/03 07:15:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 14:18:44, Sys 0 00:00:16  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 14:18:44, Sys 0 00:00:16  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	30834  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	30834  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    48           4    888417 
+	   Memory (MB)          :   244           1       128 
+...

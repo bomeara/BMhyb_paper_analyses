@@ -1,0 +1,61 @@
+000 (066.244.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.244.000) 07/26 20:09:51 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+006 (066.244.000) 07/26 20:10:00 Image size of job updated: 221808
+	217  -  MemoryUsage of job (MB)
+	221808  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/26 20:50:04 Image size of job updated: 229016
+	224  -  MemoryUsage of job (MB)
+	229016  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/26 22:05:12 Image size of job updated: 229032
+	224  -  MemoryUsage of job (MB)
+	229032  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/28 22:45:15 Image size of job updated: 229060
+	224  -  MemoryUsage of job (MB)
+	229032  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/28 22:50:16 Image size of job updated: 229068
+	224  -  MemoryUsage of job (MB)
+	229032  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/29 00:40:26 Image size of job updated: 229072
+	224  -  MemoryUsage of job (MB)
+	229032  -  ResidentSetSize of job (KB)
+...
+006 (066.244.000) 07/29 09:06:19 Image size of job updated: 229216
+	224  -  MemoryUsage of job (MB)
+	229032  -  ResidentSetSize of job (KB)
+...
+022 (066.244.000) 08/01 10:00:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_18@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+001 (066.244.000) 08/01 16:52:23 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+022 (066.244.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_12@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+023 (066.244.000) 08/14 14:07:59 Job reconnected to slot1_12@omearashiny1
+    startd address: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+    starter address: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66529_72ea_434>
+...
+005 (066.244.000) 08/19 09:53:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 17 16:07:10, Sys 0 00:05:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 17 16:07:10, Sys 0 00:05:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28272  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	28272  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          46    202517 
+	   Memory (MB)          :   245         245       256 
+...

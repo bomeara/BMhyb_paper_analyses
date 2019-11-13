@@ -1,0 +1,51 @@
+000 (066.1403.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1403.000) 08/03 14:17:11 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1403.000) 08/05 22:27:58 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1403.000) 08/09 10:36:04 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1403.000) 08/09 13:05:16 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1403.000) 09/04 07:55:37 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2343_ae7c_4>
+...
+006 (066.1403.000) 09/04 07:55:45 Image size of job updated: 243480
+	238  -  MemoryUsage of job (MB)
+	243432  -  ResidentSetSize of job (KB)
+...
+006 (066.1403.000) 09/04 09:50:56 Image size of job updated: 247320
+	242  -  MemoryUsage of job (MB)
+	247272  -  ResidentSetSize of job (KB)
+...
+022 (066.1403.000) 09/04 12:12:48 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2343_ae7c_4>
+...
+024 (066.1403.000) 09/04 12:52:51 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_24@omearaclusterc, rescheduling job
+...
+001 (066.1403.000) 09/10 13:48:08 Job executing on host: <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=2702_ecfc_4>
+...
+005 (066.1403.000) 10/05 05:38:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 24 15:33:03, Sys 0 00:01:35  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 24 15:33:03, Sys 0 00:01:35  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32174  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32174  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75   1811553 
+	   Memory (MB)          :   245         245       256 
+...

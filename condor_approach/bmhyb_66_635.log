@@ -1,0 +1,59 @@
+000 (066.635.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.635.000) 08/02 05:18:24 Job executing on host: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+006 (066.635.000) 08/02 05:18:33 Image size of job updated: 243492
+	238  -  MemoryUsage of job (MB)
+	243492  -  ResidentSetSize of job (KB)
+...
+006 (066.635.000) 08/02 05:33:35 Image size of job updated: 246504
+	241  -  MemoryUsage of job (MB)
+	246504  -  ResidentSetSize of job (KB)
+...
+006 (066.635.000) 08/02 05:58:38 Image size of job updated: 246516
+	241  -  MemoryUsage of job (MB)
+	246516  -  ResidentSetSize of job (KB)
+...
+022 (066.635.000) 08/04 11:05:47 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_21@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.635.000) 08/04 11:06:02 Job reconnected to slot1_21@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_165>
+...
+006 (066.635.000) 08/07 13:14:14 Image size of job updated: 246620
+	241  -  MemoryUsage of job (MB)
+	246620  -  ResidentSetSize of job (KB)
+...
+006 (066.635.000) 08/08 15:36:59 Image size of job updated: 247152
+	242  -  MemoryUsage of job (MB)
+	247152  -  ResidentSetSize of job (KB)
+...
+006 (066.635.000) 08/10 16:32:02 Image size of job updated: 248428
+	243  -  MemoryUsage of job (MB)
+	248428  -  ResidentSetSize of job (KB)
+...
+022 (066.635.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_21@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+...
+023 (066.635.000) 08/14 14:08:05 Job reconnected to slot1_21@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77628_edfd_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=77741_5132_165>
+...
+005 (066.635.000) 08/16 19:18:30 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 14 13:27:36, Sys 0 00:03:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 14 13:27:36, Sys 0 00:03:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32054  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	32054  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          49    891678 
+	   Memory (MB)          :   245         245       128 
+...

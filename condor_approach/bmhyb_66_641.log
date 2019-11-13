@@ -1,0 +1,86 @@
+000 (066.641.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.641.000) 08/02 06:26:25 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+006 (066.641.000) 08/02 06:26:33 Image size of job updated: 243048
+	238  -  MemoryUsage of job (MB)
+	243048  -  ResidentSetSize of job (KB)
+...
+022 (066.641.000) 08/02 16:24:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_7@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+024 (066.641.000) 08/02 17:04:09 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_7@omearaclustere, rescheduling job
+...
+012 (066.641.000) 08/03 14:17:33 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.641.000) 08/05 22:28:20 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.641.000) 08/06 00:42:42 Job executing on host: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+022 (066.641.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_9@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+023 (066.641.000) 08/14 14:08:05 Job reconnected to slot1_9@omearaclusterf
+    startd address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+    starter address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76880_aa2f_733>
+...
+001 (066.641.000) 09/06 15:21:30 Job executing on host: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2386_2d0f_4>
+...
+022 (066.641.000) 09/08 08:37:27 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_18@omearaclusterl <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2386_2d0f_4>
+...
+023 (066.641.000) 09/08 08:42:05 Job reconnected to slot1_18@omearaclusterl
+    startd address: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2386_2d0f_4>
+    starter address: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2577_7ac2_20>
+...
+022 (066.641.000) 10/15 17:35:04 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_18@omearaclusterl <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=2386_2d0f_4>
+...
+024 (066.641.000) 10/15 18:15:06 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_18@omearaclusterl, rescheduling job
+...
+001 (066.641.000) 10/15 18:15:59 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2337_90eb_4>
+...
+004 (066.641.000) 10/21 22:27:46 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 6 04:08:43, Sys 0 00:01:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    61          75    889942 
+	   Memory (MB)          :   245         245       256 
+...
+006 (066.641.000) 10/21 22:27:46 Image size of job updated: 454800
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+022 (066.641.000) 10/21 22:27:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_14@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2337_90eb_4>
+...
+024 (066.641.000) 10/21 22:27:51 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_14@omearaclusteri, rescheduling job
+...
+001 (066.641.000) 10/21 22:33:42 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
+...
+006 (066.641.000) 10/29 01:31:31 Image size of job updated: 250320
+	245  -  MemoryUsage of job (MB)
+	250320  -  ResidentSetSize of job (KB)
+...
+006 (066.641.000) 11/10 15:17:48 Image size of job updated: 250552
+	245  -  MemoryUsage of job (MB)
+	250552  -  ResidentSetSize of job (KB)
+...

@@ -1,0 +1,69 @@
+000 (066.742.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.742.000) 08/03 14:16:38 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.742.000) 08/05 22:27:24 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.742.000) 08/09 10:35:20 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.742.000) 08/09 13:04:43 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.742.000) 08/10 06:04:00 Job executing on host: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+...
+006 (066.742.000) 08/10 06:04:09 Image size of job updated: 221180
+	216  -  MemoryUsage of job (MB)
+	221180  -  ResidentSetSize of job (KB)
+...
+006 (066.742.000) 08/10 06:09:10 Image size of job updated: 223292
+	219  -  MemoryUsage of job (MB)
+	223292  -  ResidentSetSize of job (KB)
+...
+006 (066.742.000) 08/11 12:57:18 Image size of job updated: 225140
+	220  -  MemoryUsage of job (MB)
+	225140  -  ResidentSetSize of job (KB)
+...
+006 (066.742.000) 08/11 22:13:12 Image size of job updated: 226592
+	222  -  MemoryUsage of job (MB)
+	226592  -  ResidentSetSize of job (KB)
+...
+006 (066.742.000) 08/12 17:00:12 Image size of job updated: 228704
+	224  -  MemoryUsage of job (MB)
+	228704  -  ResidentSetSize of job (KB)
+...
+006 (066.742.000) 08/13 21:23:04 Image size of job updated: 229100
+	224  -  MemoryUsage of job (MB)
+	229100  -  ResidentSetSize of job (KB)
+...
+022 (066.742.000) 08/14 14:07:46 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_6@omearalab11 <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+...
+023 (066.742.000) 08/14 14:07:48 Job reconnected to slot1_6@omearalab11
+    startd address: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21393_65a7_4>
+    starter address: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=21470_4ea2_147>
+...
+006 (066.742.000) 08/15 13:11:39 Image size of job updated: 436896
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.742.000) 08/15 13:11:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 5 07:02:58, Sys 0 00:00:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 5 07:02:58, Sys 0 00:00:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	29670  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	29670  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    47          47   1811025 
+	   Memory (MB)          :   245         245       128 
+...

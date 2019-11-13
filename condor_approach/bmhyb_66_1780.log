@@ -1,0 +1,99 @@
+000 (066.1780.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1780.000) 08/03 14:17:30 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1780.000) 08/05 22:28:17 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1780.000) 08/09 10:36:29 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1780.000) 08/09 13:05:36 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1780.000) 09/23 13:38:04 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1780.000) 09/24 14:49:56 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1780.000) 10/02 21:56:43 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+006 (066.1780.000) 10/02 21:56:51 Image size of job updated: 220364
+	216  -  MemoryUsage of job (MB)
+	220364  -  ResidentSetSize of job (KB)
+...
+006 (066.1780.000) 10/02 22:06:52 Image size of job updated: 222212
+	218  -  MemoryUsage of job (MB)
+	222212  -  ResidentSetSize of job (KB)
+...
+006 (066.1780.000) 10/02 22:26:54 Image size of job updated: 222224
+	218  -  MemoryUsage of job (MB)
+	222224  -  ResidentSetSize of job (KB)
+...
+022 (066.1780.000) 10/04 13:17:05 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_10@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+024 (066.1780.000) 10/04 13:57:05 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_10@omearaclusterc, rescheduling job
+...
+001 (066.1780.000) 10/06 23:46:33 Job executing on host: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
+...
+006 (066.1780.000) 10/07 00:06:44 Image size of job updated: 227244
+	222  -  MemoryUsage of job (MB)
+	227244  -  ResidentSetSize of job (KB)
+...
+006 (066.1780.000) 10/07 00:41:48 Image size of job updated: 227256
+	222  -  MemoryUsage of job (MB)
+	227256  -  ResidentSetSize of job (KB)
+...
+006 (066.1780.000) 10/18 14:15:31 Image size of job updated: 232948
+	228  -  MemoryUsage of job (MB)
+	232948  -  ResidentSetSize of job (KB)
+...
+022 (066.1780.000) 10/21 22:27:48 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_6@omearaclusterd <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
+...
+004 (066.1780.000) 10/21 22:27:54 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 14 22:08:24, Sys 0 00:03:21  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    61          75    891642 
+	   Memory (MB)          :   228         220       256 
+...
+006 (066.1780.000) 10/21 22:27:54 Image size of job updated: 439380
+	228  -  MemoryUsage of job (MB)
+	232948  -  ResidentSetSize of job (KB)
+...
+024 (066.1780.000) 10/21 22:28:06 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_6@omearaclusterd, rescheduling job
+...
+001 (066.1780.000) 10/21 22:36:42 Job executing on host: <10.128.151.149:9618?addrs=10.128.151.149-9618&noUDP&sock=2702_ecfc_4>
+...
+005 (066.1780.000) 10/24 19:27:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 20:50:33, Sys 0 00:00:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 20:50:33, Sys 0 00:00:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	29390  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	29390  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    47          75   1811004 
+	   Memory (MB)          :   245         245       256 
+...

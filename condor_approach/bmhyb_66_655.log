@@ -1,0 +1,43 @@
+000 (066.655.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.655.000) 08/02 11:36:30 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+006 (066.655.000) 08/02 11:36:38 Image size of job updated: 234128
+	229  -  MemoryUsage of job (MB)
+	234128  -  ResidentSetSize of job (KB)
+...
+006 (066.655.000) 08/02 11:41:38 Image size of job updated: 235968
+	231  -  MemoryUsage of job (MB)
+	235968  -  ResidentSetSize of job (KB)
+...
+022 (066.655.000) 08/04 11:03:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_19@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+023 (066.655.000) 08/04 11:08:47 Job reconnected to slot1_19@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2561_34c1_653>
+...
+006 (066.655.000) 08/04 17:36:23 Image size of job updated: 248364
+	243  -  MemoryUsage of job (MB)
+	248364  -  ResidentSetSize of job (KB)
+...
+006 (066.655.000) 08/06 12:30:49 Image size of job updated: 248932
+	244  -  MemoryUsage of job (MB)
+	248932  -  ResidentSetSize of job (KB)
+...
+005 (066.655.000) 08/07 06:30:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 4 18:44:42, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 4 18:44:42, Sys 0 00:00:39  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	33110  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	33110  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50           4    892167 
+	   Memory (MB)          :   244           1       128 
+...

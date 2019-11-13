@@ -1,0 +1,54 @@
+000 (066.596.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.596.000) 08/01 17:56:13 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+006 (066.596.000) 08/01 17:56:22 Image size of job updated: 220652
+	216  -  MemoryUsage of job (MB)
+	220652  -  ResidentSetSize of job (KB)
+...
+006 (066.596.000) 08/01 18:01:23 Image size of job updated: 225084
+	220  -  MemoryUsage of job (MB)
+	225084  -  ResidentSetSize of job (KB)
+...
+022 (066.596.000) 08/02 16:20:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_17@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+024 (066.596.000) 08/02 17:00:21 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_17@omearaclustere, rescheduling job
+...
+012 (066.596.000) 08/03 14:17:33 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.596.000) 08/05 22:28:19 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.596.000) 08/05 22:32:41 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+022 (066.596.000) 08/07 07:52:55 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_6@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2276_b9a4_4>
+...
+024 (066.596.000) 08/07 08:32:55 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_6@omearaclusterc, rescheduling job
+...
+001 (066.596.000) 08/09 10:10:09 Job executing on host: <10.131.171.171:9618?addrs=10.131.171.171-9618&noUDP&sock=2142_cff3_4>
+...
+005 (066.596.000) 08/10 07:29:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 21:16:21, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 21:16:21, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28619  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28619  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    890691 
+	   Memory (MB)          :   245         245       256 
+...

@@ -1,0 +1,78 @@
+000 (066.1671.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1671.000) 08/03 14:17:25 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1671.000) 08/05 22:28:12 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1671.000) 08/09 10:36:22 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1671.000) 08/09 13:05:30 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1671.000) 09/23 13:38:14 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1671.000) 09/24 14:50:04 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1671.000) 09/28 02:25:25 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+006 (066.1671.000) 09/28 02:25:34 Image size of job updated: 242788
+	238  -  MemoryUsage of job (MB)
+	242788  -  ResidentSetSize of job (KB)
+...
+006 (066.1671.000) 09/28 02:35:34 Image size of job updated: 246012
+	241  -  MemoryUsage of job (MB)
+	246012  -  ResidentSetSize of job (KB)
+...
+006 (066.1671.000) 09/28 02:45:36 Image size of job updated: 246028
+	241  -  MemoryUsage of job (MB)
+	246028  -  ResidentSetSize of job (KB)
+...
+006 (066.1671.000) 09/30 02:40:41 Image size of job updated: 247368
+	242  -  MemoryUsage of job (MB)
+	247368  -  ResidentSetSize of job (KB)
+...
+006 (066.1671.000) 09/30 22:52:47 Image size of job updated: 247536
+	242  -  MemoryUsage of job (MB)
+	247536  -  ResidentSetSize of job (KB)
+...
+006 (066.1671.000) 10/02 22:07:42 Image size of job updated: 248224
+	243  -  MemoryUsage of job (MB)
+	248224  -  ResidentSetSize of job (KB)
+...
+022 (066.1671.000) 10/04 13:13:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_7@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+024 (066.1671.000) 10/04 13:53:25 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_7@omearaclusterc, rescheduling job
+...
+001 (066.1671.000) 10/04 13:55:21 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2337_90eb_4>
+...
+006 (066.1671.000) 10/04 14:05:30 Image size of job updated: 251500
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.1671.000) 10/20 22:46:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 16 08:31:44, Sys 0 00:02:43  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 16 08:31:44, Sys 0 00:02:43  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31794  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31794  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75    889942 
+	   Memory (MB)          :   245         245       256 
+...

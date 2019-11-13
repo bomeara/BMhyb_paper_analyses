@@ -1,0 +1,121 @@
+[1] "args"
+[1] "66"   "1622"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE         bt         vh 
+1.01679605 0.05924774 0.02962387 1.00000000 0.02962387 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 1.000000000 16.163955621  1.137469403  0.006638032  0.067547610  1.095793464 
+          vh 
+ 0.023579764 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+2.000000e+00 1.537864e+01 1.105918e+00 6.448733e-03 7.979773e-02 8.835775e-01 
+          vh 
+5.295788e-04 
+        step    negloglik           mu     sigma.sq           SE           bt 
+3.000000e+00 1.537864e+01 1.105918e+00 6.448733e-03 7.979773e-02 8.835775e-01 
+          vh 
+5.295788e-04 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+4.000000e+00 1.535871e+01 1.157649e+00 5.755071e-03 7.783610e-02 9.197532e-01 
+          vh 
+1.516972e-04 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+5.000000e+00 1.531811e+01 1.150807e+00 5.617261e-03 7.299299e-02 8.814615e-01 
+          vh 
+1.169318e-04 
+        step    negloglik           mu     sigma.sq           SE           bt 
+6.000000e+00 1.531811e+01 1.150807e+00 5.617261e-03 7.299299e-02 8.814615e-01 
+          vh 
+1.169318e-04 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+7.000000e+00 1.531572e+01 1.181321e+00 5.404758e-03 7.426094e-02 8.693289e-01 
+          vh 
+3.649185e-04 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         bt         vh 
+1.01679605 0.05924774 1.00000000 0.02962387 
+        step    negloglik           mu     sigma.sq           bt           vh 
+1.000000e+00 2.500041e+01 1.169485e+00 5.809612e-02 8.513246e-01 2.572893e-05 
+        step    negloglik           mu     sigma.sq           bt           vh 
+2.000000e+00 2.500041e+01 1.169485e+00 5.809612e-02 8.513246e-01 2.572893e-05 
+        step    negloglik           mu     sigma.sq           bt           vh 
+3.000000e+00 2.500041e+01 1.169485e+00 5.809612e-02 8.513246e-01 2.572893e-05 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE         vh 
+1.01679605 0.05924774 0.02962387 0.02962387 
+        step    negloglik           mu     sigma.sq           SE           vh 
+ 1.000000000 15.551863486  1.127394484  0.005668731  0.072460144  0.000474553 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           vh 
+2.000000e+00 1.550397e+01 1.065295e+00 6.077723e-03 7.331101e-02 5.699767e-05 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+        step    negloglik           mu     sigma.sq           SE           vh 
+ 3.000000000 15.496199940  1.013114779  0.005806867  0.072932563  0.000213562 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+        step    negloglik           mu     sigma.sq           SE           vh 
+4.000000e+00 1.548831e+01 1.012458e+00 5.770839e-03 7.541892e-02 1.837967e-04 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         vh 
+1.01679605 0.05924774 0.02962387 
+        step    negloglik           mu     sigma.sq           vh 
+ 1.000000000 25.072665071  1.031227142  0.058320968  0.001688455 
+        step    negloglik           mu     sigma.sq           vh 
+ 2.000000000 25.072665071  1.031227142  0.058320968  0.001688455 
+        step    negloglik           mu     sigma.sq           vh 
+ 3.000000000 25.072665071  1.031227142  0.058320968  0.001688455 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE         bt 
+1.01679605 0.05924774 0.02962387 1.00000000 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 1.000000000 15.321123812  1.286485831  0.006291461  0.071869483  0.824389775 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 2.000000000 15.298956775  1.217003689  0.005863958  0.075052937  0.848637908 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 3.000000000 15.298956775  1.217003689  0.005863958  0.075052937  0.848637908 
+        step    negloglik           mu     sigma.sq           SE           bt 
+ 4.000000000 15.298956775  1.217003689  0.005863958  0.075052937  0.848637908 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         bt 
+1.01679605 0.05924774 1.00000000 
+       step   negloglik          mu    sigma.sq          bt 
+ 1.00000000 25.00114820  1.14142418  0.05818857  0.85348251 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+       step   negloglik          mu    sigma.sq          bt 
+ 2.00000000 24.99415437  1.23039978  0.05759408  0.79026822 
+       step   negloglik          mu    sigma.sq          bt 
+ 3.00000000 24.99415437  1.23039978  0.05759408  0.79026822 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE 
+1.01679605 0.05924774 0.02962387 
+        step    negloglik           mu     sigma.sq           SE 
+ 1.000000000 15.512787923  1.049374919  0.005881805  0.082108985 
+[1] "New improvement found, resetting step counter"
+        step    negloglik           mu     sigma.sq           SE 
+ 2.000000000 15.487093424  1.026618394  0.005817519  0.075217576 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+        step    negloglik           mu     sigma.sq           SE 
+ 3.000000000 15.486828811  1.016471801  0.005570828  0.076376838 
+        step    negloglik           mu     sigma.sq           SE 
+ 4.000000000 15.486828811  1.016471801  0.005570828  0.076376838 
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq 
+1.01679605 0.05924774 
+       step   negloglik          mu    sigma.sq 
+ 1.00000000 25.06470101  1.01679605  0.05924774 
+       step   negloglik          mu    sigma.sq 
+ 2.00000000 25.06470101  1.01679605  0.05924774 
+       step   negloglik          mu    sigma.sq 
+ 3.00000000 25.06470101  1.01679605  0.05924774 

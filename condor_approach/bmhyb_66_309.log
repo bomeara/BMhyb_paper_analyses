@@ -1,0 +1,59 @@
+000 (066.309.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.309.000) 07/27 07:43:01 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+006 (066.309.000) 07/27 07:43:10 Image size of job updated: 243004
+	238  -  MemoryUsage of job (MB)
+	243004  -  ResidentSetSize of job (KB)
+...
+006 (066.309.000) 07/27 07:48:11 Image size of job updated: 249108
+	244  -  MemoryUsage of job (MB)
+	249108  -  ResidentSetSize of job (KB)
+...
+006 (066.309.000) 07/27 07:58:11 Image size of job updated: 249120
+	244  -  MemoryUsage of job (MB)
+	249120  -  ResidentSetSize of job (KB)
+...
+006 (066.309.000) 07/28 02:45:02 Image size of job updated: 249248
+	244  -  MemoryUsage of job (MB)
+	249120  -  ResidentSetSize of job (KB)
+...
+006 (066.309.000) 07/31 09:13:08 Image size of job updated: 249832
+	244  -  MemoryUsage of job (MB)
+	249704  -  ResidentSetSize of job (KB)
+...
+022 (066.309.000) 08/01 09:57:20 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+024 (066.309.000) 08/01 10:37:40 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_3@omearashiny1, rescheduling job
+...
+001 (066.309.000) 08/01 16:52:23 Job executing on host: <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=68980_1ef7_4>
+...
+022 (066.309.000) 08/02 16:21:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_7@omearaclusterh <10.128.213.253:9618?addrs=10.128.213.253-9618&noUDP&sock=68980_1ef7_4>
+...
+024 (066.309.000) 08/02 17:01:27 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_7@omearaclusterh, rescheduling job
+...
+001 (066.309.000) 08/03 11:22:41 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+005 (066.309.000) 08/05 19:15:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 07:50:57, Sys 0 00:00:23  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 07:50:57, Sys 0 00:00:23  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31890  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31890  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          75    888417 
+	   Memory (MB)          :   245         245       256 
+...

@@ -1,0 +1,55 @@
+000 (066.964.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.964.000) 08/03 14:16:49 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.964.000) 08/05 22:27:35 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.964.000) 08/09 10:35:35 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.964.000) 08/09 13:04:54 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.964.000) 08/18 06:38:31 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+006 (066.964.000) 08/18 06:38:39 Image size of job updated: 220484
+	216  -  MemoryUsage of job (MB)
+	220484  -  ResidentSetSize of job (KB)
+...
+006 (066.964.000) 08/18 08:08:48 Image size of job updated: 225264
+	220  -  MemoryUsage of job (MB)
+	225264  -  ResidentSetSize of job (KB)
+...
+006 (066.964.000) 08/18 11:09:08 Image size of job updated: 225280
+	220  -  MemoryUsage of job (MB)
+	225280  -  ResidentSetSize of job (KB)
+...
+001 (066.964.000) 09/06 15:25:31 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2505_ccd4_4>
+...
+022 (066.964.000) 09/08 08:36:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_21@omearaclusterc <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2505_ccd4_4>
+...
+023 (066.964.000) 09/08 08:41:13 Job reconnected to slot1_21@omearaclusterc
+    startd address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2505_ccd4_4>
+    starter address: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=3022_05b4_23>
+...
+005 (066.964.000) 09/13 02:08:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 6 10:29:34, Sys 0 00:00:55  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 6 10:29:34, Sys 0 00:00:55  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28751  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28751  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    892254 
+	   Memory (MB)          :   245         245       256 
+...

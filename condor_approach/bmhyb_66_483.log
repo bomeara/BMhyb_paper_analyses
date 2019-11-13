@@ -1,0 +1,58 @@
+000 (066.483.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.483.000) 08/01 00:03:14 Job executing on host: <10.129.169.104:9618?addrs=10.129.169.104-9618&noUDP&sock=60687_d010_4>
+...
+006 (066.483.000) 08/01 00:03:23 Image size of job updated: 243336
+	238  -  MemoryUsage of job (MB)
+	243336  -  ResidentSetSize of job (KB)
+...
+006 (066.483.000) 08/01 00:08:24 Image size of job updated: 246836
+	242  -  MemoryUsage of job (MB)
+	246836  -  ResidentSetSize of job (KB)
+...
+022 (066.483.000) 08/01 10:00:53 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@omearalab22 <10.129.169.104:9618?addrs=10.129.169.104-9618&noUDP&sock=60687_d010_4>
+...
+024 (066.483.000) 08/01 10:41:13 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_2@omearalab22, rescheduling job
+...
+001 (066.483.000) 08/01 16:52:23 Job executing on host: <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=69000_d6dc_4>
+...
+022 (066.483.000) 08/02 16:21:25 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_20@omearaclusterl <10.128.78.255:9618?addrs=10.128.78.255-9618&noUDP&sock=69000_d6dc_4>
+...
+024 (066.483.000) 08/02 17:01:28 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_20@omearaclusterl, rescheduling job
+...
+012 (066.483.000) 08/03 14:17:32 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.483.000) 08/05 22:27:41 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=66431_b80f_4>
+...
+013 (066.483.000) 08/05 22:28:18 Job was released.
+	via condor_release (by user bomeara)
+...
+006 (066.483.000) 08/08 11:53:42 Image size of job updated: 455452
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.483.000) 08/08 11:53:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 2 13:18:29, Sys 0 00:00:46  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 2 13:18:29, Sys 0 00:00:46  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31336  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31336  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          75    202517 
+	   Memory (MB)          :   245         245       256 
+...

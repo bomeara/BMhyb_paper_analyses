@@ -1,0 +1,47 @@
+000 (066.639.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.639.000) 08/02 05:52:24 Job executing on host: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+006 (066.639.000) 08/02 05:52:33 Image size of job updated: 242888
+	238  -  MemoryUsage of job (MB)
+	242888  -  ResidentSetSize of job (KB)
+...
+006 (066.639.000) 08/02 06:07:35 Image size of job updated: 242896
+	238  -  MemoryUsage of job (MB)
+	242896  -  ResidentSetSize of job (KB)
+...
+006 (066.639.000) 08/02 06:27:36 Image size of job updated: 242912
+	238  -  MemoryUsage of job (MB)
+	242912  -  ResidentSetSize of job (KB)
+...
+022 (066.639.000) 08/04 11:04:41 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_23@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+023 (066.639.000) 08/04 11:06:38 Job reconnected to slot1_23@omearaclusterf
+    startd address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+    starter address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76880_aa2f_725>
+...
+006 (066.639.000) 08/05 14:18:49 Image size of job updated: 248044
+	243  -  MemoryUsage of job (MB)
+	248044  -  ResidentSetSize of job (KB)
+...
+006 (066.639.000) 08/07 02:22:33 Image size of job updated: 248712
+	243  -  MemoryUsage of job (MB)
+	248712  -  ResidentSetSize of job (KB)
+...
+005 (066.639.000) 08/10 04:48:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 7 22:43:34, Sys 0 00:01:13  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 7 22:43:34, Sys 0 00:01:13  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31052  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31052  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    48           4    813884 
+	   Memory (MB)          :   243           1       128 
+...

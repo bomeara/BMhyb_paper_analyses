@@ -1,0 +1,34 @@
+[1] "args"
+[1] "66"   "1459"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+         mu    sigma.sq          SE          bt          vh 
+0.472991623 0.008983925 0.004491962 1.000000000 0.004491962 
+         step     negloglik            mu      sigma.sq            SE 
+ 1.000000e+00 -5.535259e+01  4.834180e-01  8.681426e-03  5.320437e-07 
+           bt            vh 
+ 1.125845e+00  1.812539e-01 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 2.000000e+00 -5.734812e+01 -6.881805e-01  8.681441e-03  5.420132e-07 
+           bt            vh 
+ 2.414213e+00  7.002310e-01 
+         step     negloglik            mu      sigma.sq            SE 
+ 3.000000e+00 -5.734812e+01 -6.881805e-01  8.681441e-03  5.420132e-07 
+           bt            vh 
+ 2.414213e+00  7.002310e-01 
+[1] "New improvement found, resetting step counter"
+         step     negloglik            mu      sigma.sq            SE 
+ 4.000000e+00 -5.839183e+01 -7.281333e-01  8.588286e-03  4.968003e-07 
+           bt            vh 
+ 4.771255e+00  6.836949e-03 
+         step     negloglik            mu      sigma.sq            SE 
+ 5.000000e+00 -5.839183e+01 -7.281333e-01  8.588286e-03  4.968003e-07 
+           bt            vh 
+ 4.771255e+00  6.836949e-03 
+         step     negloglik            mu      sigma.sq            SE 
+ 6.000000e+00 -5.839183e+01 -7.281333e-01  8.588286e-03  4.968003e-07 
+           bt            vh 
+ 4.771255e+00  6.836949e-03 
+[1] "Now starting analysis"
+[1] "Initial starting values were in an area where the precision of the likelihood would be low (due to poor condition of the VCV matrix), so we're trying in a new area"

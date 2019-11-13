@@ -1,0 +1,15 @@
+[1] "args"
+[1] "66"   "1402"
+[1] "Now starting analysis"
+[1] "Starting with initial values"
+        mu   sigma.sq         SE         bt         vh 
+4.26415056 0.02952043 0.01476021 1.00000000 0.01476021 
+         step     negloglik            mu      sigma.sq            SE 
+  1.000000000 -10.593659545  -0.268837793   0.005656735   0.003104943 
+           bt            vh 
+  2.760605785   0.261593646 
+[1] "New improvement found, but slight; taking the best value, but not resetting the step counter"
+         step     negloglik            mu      sigma.sq            SE 
+  2.000000000 -10.602594090  -0.187097564   0.005603172   0.002922769 
+           bt            vh 
+  2.739485843   0.246456733 

@@ -1,0 +1,61 @@
+000 (066.316.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.316.000) 07/27 10:09:06 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+006 (066.316.000) 07/27 10:09:14 Image size of job updated: 221800
+	217  -  MemoryUsage of job (MB)
+	221800  -  ResidentSetSize of job (KB)
+...
+006 (066.316.000) 07/27 10:24:16 Image size of job updated: 228920
+	224  -  MemoryUsage of job (MB)
+	228920  -  ResidentSetSize of job (KB)
+...
+006 (066.316.000) 07/31 00:53:09 Image size of job updated: 230644
+	226  -  MemoryUsage of job (MB)
+	230600  -  ResidentSetSize of job (KB)
+...
+022 (066.316.000) 08/01 09:58:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_5@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+024 (066.316.000) 08/01 10:38:29 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_5@omearaclusterk, rescheduling job
+...
+001 (066.316.000) 08/01 16:52:23 Job executing on host: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+022 (066.316.000) 08/04 11:06:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+023 (066.316.000) 08/04 11:08:22 Job reconnected to slot1_11@omearaclusterf
+    startd address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+    starter address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76880_aa2f_707>
+...
+022 (066.316.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_11@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+023 (066.316.000) 08/14 14:08:00 Job reconnected to slot1_11@omearaclusterf
+    startd address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+    starter address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76880_aa2f_707>
+...
+006 (066.316.000) 08/19 02:14:46 Image size of job updated: 440080
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.316.000) 08/19 02:14:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 17 08:50:53, Sys 0 00:02:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 17 08:50:53, Sys 0 00:02:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	28801  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          46    813884 
+	   Memory (MB)          :   245         245       256 
+...

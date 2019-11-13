@@ -1,0 +1,79 @@
+000 (066.010.000) 07/26 17:14:45 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+001 (066.010.000) 07/26 17:14:48 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+006 (066.010.000) 07/26 17:14:56 Image size of job updated: 221228
+	217  -  MemoryUsage of job (MB)
+	221220  -  ResidentSetSize of job (KB)
+...
+006 (066.010.000) 07/26 17:54:59 Image size of job updated: 224316
+	220  -  MemoryUsage of job (MB)
+	224308  -  ResidentSetSize of job (KB)
+...
+006 (066.010.000) 07/26 19:05:06 Image size of job updated: 224332
+	220  -  MemoryUsage of job (MB)
+	224324  -  ResidentSetSize of job (KB)
+...
+022 (066.010.000) 08/01 10:04:52 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@omearaclusterj <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+022 (066.010.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_2@omearaclusterj <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+024 (066.010.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_2@omearaclusterj, rescheduling job
+...
+001 (066.010.000) 08/01 16:52:15 Job executing on host: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+006 (066.010.000) 08/01 17:22:27 Image size of job updated: 227204
+	222  -  MemoryUsage of job (MB)
+	227204  -  ResidentSetSize of job (KB)
+...
+006 (066.010.000) 08/01 18:12:31 Image size of job updated: 227216
+	222  -  MemoryUsage of job (MB)
+	227216  -  ResidentSetSize of job (KB)
+...
+022 (066.010.000) 08/04 11:05:47 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+023 (066.010.000) 08/04 11:08:03 Job reconnected to slot1_2@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=70039_8fb9_590>
+...
+022 (066.010.000) 08/14 14:07:46 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_2@omearaclusterk <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+...
+023 (066.010.000) 08/14 14:07:55 Job reconnected to slot1_2@omearaclusterk
+    startd address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=69960_51c7_4>
+    starter address: <10.128.147.77:9618?addrs=10.128.147.77-9618&noUDP&sock=70039_8fb9_590>
+...
+001 (066.010.000) 09/06 15:20:29 Job executing on host: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+...
+022 (066.010.000) 09/08 08:36:38 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@omearaclustera <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+...
+023 (066.010.000) 09/08 08:42:26 Job reconnected to slot1_1@omearaclustera
+    startd address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
+    starter address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2681_c1c6_3>
+...
+005 (066.010.000) 09/17 08:42:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 10 16:51:35, Sys 0 00:03:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 10 16:51:35, Sys 0 00:03:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28543  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28543  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    891763 
+	   Memory (MB)          :   245         245       256 
+...

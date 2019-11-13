@@ -1,0 +1,66 @@
+000 (066.1438.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1438.000) 08/03 14:17:13 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1438.000) 08/05 22:28:00 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1438.000) 08/09 10:36:06 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1438.000) 08/09 13:05:18 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.1438.000) 09/12 22:02:00 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2357_48d0_4>
+...
+006 (066.1438.000) 09/12 22:02:08 Image size of job updated: 223416
+	219  -  MemoryUsage of job (MB)
+	223416  -  ResidentSetSize of job (KB)
+...
+006 (066.1438.000) 09/12 22:27:10 Image size of job updated: 226436
+	222  -  MemoryUsage of job (MB)
+	226436  -  ResidentSetSize of job (KB)
+...
+006 (066.1438.000) 09/12 23:22:15 Image size of job updated: 226452
+	222  -  MemoryUsage of job (MB)
+	226452  -  ResidentSetSize of job (KB)
+...
+006 (066.1438.000) 09/20 07:40:32 Image size of job updated: 228252
+	223  -  MemoryUsage of job (MB)
+	228252  -  ResidentSetSize of job (KB)
+...
+022 (066.1438.000) 09/20 13:17:33 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_8@omearaclusteri <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2357_48d0_4>
+...
+024 (066.1438.000) 09/20 13:57:36 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_8@omearaclusteri, rescheduling job
+...
+012 (066.1438.000) 09/23 13:38:08 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.1438.000) 09/24 14:49:53 Job executing on host: <10.129.167.211:9618?addrs=10.129.167.211-9618&noUDP&sock=2357_48d0_4>
+...
+013 (066.1438.000) 09/24 14:49:59 Job was released.
+	via condor_release (by user bomeara)
+...
+005 (066.1438.000) 09/30 14:35:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 5 23:34:22, Sys 0 00:01:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 5 23:34:22, Sys 0 00:01:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28555  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28555  -  Total Bytes Sent By Job
+	4844  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    891850 
+	   Memory (MB)          :   245         245       256 
+...

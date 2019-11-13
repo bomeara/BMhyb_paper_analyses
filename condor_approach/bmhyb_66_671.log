@@ -1,0 +1,74 @@
+000 (066.671.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.671.000) 08/03 14:17:34 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.671.000) 08/05 22:28:20 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.671.000) 08/07 01:37:48 Job executing on host: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+006 (066.671.000) 08/07 01:37:56 Image size of job updated: 243360
+	238  -  MemoryUsage of job (MB)
+	243360  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 01:47:56 Image size of job updated: 245336
+	240  -  MemoryUsage of job (MB)
+	245336  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 02:02:57 Image size of job updated: 245348
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 13:24:45 Image size of job updated: 246872
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 13:39:36 Image size of job updated: 247112
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 17:35:00 Image size of job updated: 247120
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 19:45:14 Image size of job updated: 247152
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/07 20:05:16 Image size of job updated: 247204
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/08 16:02:19 Image size of job updated: 247216
+	240  -  MemoryUsage of job (MB)
+	245348  -  ResidentSetSize of job (KB)
+...
+006 (066.671.000) 08/12 09:01:34 Image size of job updated: 250644
+	243  -  MemoryUsage of job (MB)
+	248784  -  ResidentSetSize of job (KB)
+...
+022 (066.671.000) 08/14 14:07:47 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_3@omearaclusterj <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+...
+023 (066.671.000) 08/14 14:08:06 Job reconnected to slot1_3@omearaclusterj
+    startd address: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69199_5635_4>
+    starter address: <10.130.107.8:9618?addrs=10.130.107.8-9618&noUDP&sock=69295_589b_733>
+...
+005 (066.671.000) 08/20 16:50:59 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 13 14:41:26, Sys 0 00:02:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 13 14:41:26, Sys 0 00:02:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32629  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	32629  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    50          50    888358 
+	   Memory (MB)          :   245         245       128 
+...

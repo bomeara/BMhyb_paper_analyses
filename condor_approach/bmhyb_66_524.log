@@ -1,0 +1,47 @@
+000 (066.524.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+022 (066.524.000) 08/01 10:56:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_9@omearaclustere <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2263_cee9_4>
+...
+024 (066.524.000) 08/01 11:20:38 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_9@omearaclustere, rescheduling job
+...
+001 (066.524.000) 08/01 16:52:24 Job executing on host: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+006 (066.524.000) 08/01 16:52:32 Image size of job updated: 220452
+	216  -  MemoryUsage of job (MB)
+	220452  -  ResidentSetSize of job (KB)
+...
+006 (066.524.000) 08/01 16:57:32 Image size of job updated: 228524
+	224  -  MemoryUsage of job (MB)
+	228524  -  ResidentSetSize of job (KB)
+...
+022 (066.524.000) 08/04 11:06:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_24@omearaclusterf <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+...
+023 (066.524.000) 08/04 11:08:19 Job reconnected to slot1_24@omearaclusterf
+    startd address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76684_6c96_4>
+    starter address: <10.130.210.206:9618?addrs=10.130.210.206-9618&noUDP&sock=76880_aa2f_720>
+...
+006 (066.524.000) 08/04 11:57:30 Image size of job updated: 232820
+	228  -  MemoryUsage of job (MB)
+	232820  -  ResidentSetSize of job (KB)
+...
+005 (066.524.000) 08/05 02:50:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 3 09:52:28, Sys 0 00:00:34  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 3 09:52:28, Sys 0 00:00:34  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28909  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28909  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46           4    813884 
+	   Memory (MB)          :   228           1       128 
+...

@@ -1,0 +1,57 @@
+000 (066.847.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.847.000) 08/03 14:16:43 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.847.000) 08/05 22:27:29 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.847.000) 08/09 10:35:27 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.847.000) 08/09 13:04:48 Job was released.
+	via condor_release (by user bomeara)
+...
+001 (066.847.000) 08/11 11:30:22 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2361_0731_4>
+...
+006 (066.847.000) 08/11 11:30:31 Image size of job updated: 234892
+	230  -  MemoryUsage of job (MB)
+	234892  -  ResidentSetSize of job (KB)
+...
+006 (066.847.000) 08/11 11:35:32 Image size of job updated: 236756
+	232  -  MemoryUsage of job (MB)
+	236756  -  ResidentSetSize of job (KB)
+...
+006 (066.847.000) 08/11 19:06:19 Image size of job updated: 238968
+	234  -  MemoryUsage of job (MB)
+	238968  -  ResidentSetSize of job (KB)
+...
+006 (066.847.000) 08/11 19:41:23 Image size of job updated: 242312
+	237  -  MemoryUsage of job (MB)
+	242312  -  ResidentSetSize of job (KB)
+...
+006 (066.847.000) 08/11 22:11:38 Image size of job updated: 243676
+	238  -  MemoryUsage of job (MB)
+	243676  -  ResidentSetSize of job (KB)
+...
+006 (066.847.000) 08/11 22:26:39 Image size of job updated: 249088
+	244  -  MemoryUsage of job (MB)
+	249088  -  ResidentSetSize of job (KB)
+...
+005 (066.847.000) 08/12 05:30:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 17:58:48, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 17:58:48, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32049  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32049  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49           4    888433 
+	   Memory (MB)          :   244           1       128 
+...

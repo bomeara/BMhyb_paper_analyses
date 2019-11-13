@@ -1,0 +1,48 @@
+000 (066.1609.000) 07/26 17:14:46 Job submitted from host: <160.36.155.106:9618?addrs=160.36.155.106-9618&noUDP&sock=27742_4872_4>
+...
+012 (066.1609.000) 08/03 14:17:22 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1609.000) 08/05 22:28:08 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1609.000) 08/09 10:36:18 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+013 (066.1609.000) 08/09 13:05:27 Job was released.
+	via condor_release (by user bomeara)
+...
+012 (066.1609.000) 09/23 13:38:10 Job was held.
+	via condor_hold (by user bomeara)
+	Code 1 Subcode 0
+...
+001 (066.1609.000) 09/24 14:49:58 Job executing on host: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2329_1429_4>
+...
+013 (066.1609.000) 09/24 14:50:01 Job was released.
+	via condor_release (by user bomeara)
+...
+006 (066.1609.000) 09/24 14:50:06 Image size of job updated: 233896
+	229  -  MemoryUsage of job (MB)
+	233896  -  ResidentSetSize of job (KB)
+...
+006 (066.1609.000) 09/24 14:55:06 Image size of job updated: 249504
+	244  -  MemoryUsage of job (MB)
+	249504  -  ResidentSetSize of job (KB)
+...
+005 (066.1609.000) 09/25 21:29:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 1 06:37:01, Sys 0 00:00:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 1 06:37:01, Sys 0 00:00:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	31440  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	31440  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49           4    888340 
+	   Memory (MB)          :   244           1       128 
+...
