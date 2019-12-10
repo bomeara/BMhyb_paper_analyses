@@ -9141,3 +9141,22 @@
     startd address: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2433_6a02_4>
     starter address: <10.128.121.58:9618?addrs=10.128.121.58-9618&noUDP&sock=2655_7005_429>
 ...
+006 (066.1714.000) 12/09 06:17:39 Image size of job updated: 441836
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.1714.000) 12/09 06:17:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 48 08:28:56, Sys 0 00:11:51  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 48 08:28:56, Sys 0 00:11:51  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28557  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	28557  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    46          75    888716 
+	   Memory (MB)          :   245         245       256 
+...

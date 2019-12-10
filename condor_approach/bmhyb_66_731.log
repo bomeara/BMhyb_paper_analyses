@@ -12450,3 +12450,18 @@
 ...
 001 (066.731.000) 10/21 22:33:42 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
 ...
+005 (066.731.000) 11/18 17:28:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 27 19:24:21, Sys 0 00:08:26  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 27 19:24:21, Sys 0 00:08:26  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32846  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	32846  -  Total Bytes Sent By Job
+	12110  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    51          75    202848 
+	   Memory (MB)          :   245         245       256 
+...

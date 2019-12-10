@@ -47,3 +47,18 @@
     startd address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2385_7d77_4>
     starter address: <10.130.28.84:9618?addrs=10.130.28.84-9618&noUDP&sock=2963_7392_52>
 ...
+005 (066.1637.000) 11/27 07:06:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 62 06:21:47, Sys 0 00:12:47  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 62 06:21:47, Sys 0 00:12:47  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	32249  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	32249  -  Total Bytes Sent By Job
+	2422  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    49          49    891642 
+	   Memory (MB)          :   269         269       128 
+...
