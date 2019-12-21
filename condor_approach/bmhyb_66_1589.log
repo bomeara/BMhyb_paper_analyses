@@ -2761,3 +2761,39 @@
 	245  -  MemoryUsage of job (MB)
 	250740  -  ResidentSetSize of job (KB)
 ...
+022 (066.1589.000) 12/20 14:54:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_24@omearaclusterg <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=2405_355c_4>
+...
+023 (066.1589.000) 12/20 14:54:27 Job reconnected to slot1_24@omearaclusterg
+    startd address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=2405_355c_4>
+    starter address: <10.130.122.65:9618?addrs=10.130.122.65-9618&noUDP&sock=2902_78af_216>
+...
+004 (066.1589.000) 12/20 15:01:34 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 59 17:10:17, Sys 0 00:12:52  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    65          65    892237 
+	   Memory (MB)          :   269         269       256 
+...
+001 (066.1589.000) 12/20 15:03:26 Job executing on host: <10.129.169.104:9618?addrs=10.129.169.104-9618&noUDP&sock=2452_724f_4>
+...
+005 (066.1589.000) 12/20 15:03:28 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	140  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	140  -  Total Bytes Sent By Job
+	9688  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.01        1         1 
+	   Disk (KB)            :    19          75    204223 
+	   Memory (MB)          :   269         269       384 
+...

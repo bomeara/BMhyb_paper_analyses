@@ -16948,3 +16948,35 @@
     startd address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2100_00f9_4>
     starter address: <10.128.106.188:9618?addrs=10.128.106.188-9618&noUDP&sock=2681_c1c6_143>
 ...
+004 (066.1427.000) 12/20 14:52:03 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 59 16:41:18, Sys 0 00:18:57  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    59          40    891763 
+	   Memory (MB)          :   245         245       256 
+...
+001 (066.1427.000) 12/20 14:55:25 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
+...
+006 (066.1427.000) 12/20 14:55:26 Image size of job updated: 494100
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.1427.000) 12/20 14:55:26 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	140  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	140  -  Total Bytes Sent By Job
+	7266  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.05        1         1 
+	   Disk (KB)            :    19          75    202848 
+	   Memory (MB)          :   245         245       256 
+...

@@ -63,3 +63,47 @@
 ...
 001 (066.1787.000) 11/01 13:52:21 Job executing on host: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
 ...
+022 (066.1787.000) 12/20 14:54:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_3@omearashiny1 <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
+...
+023 (066.1787.000) 12/20 14:54:25 Job reconnected to slot1_3@omearashiny1
+    startd address: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=2450_131f_4>
+    starter address: <160.36.154.249:9618?addrs=160.36.154.249-9618&noUDP&sock=3170_4d3a_319>
+...
+006 (066.1787.000) 12/20 15:08:33 Image size of job updated: 433512
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+004 (066.1787.000) 12/20 15:08:33 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 49 01:46:18, Sys 0 00:14:24  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    61          61    202848 
+	   Memory (MB)          :   245         245       256 
+...
+001 (066.1787.000) 12/20 15:09:26 Job executing on host: <10.129.199.164:9618?addrs=10.129.199.164-9618&noUDP&sock=2327_b4f9_4>
+...
+006 (066.1787.000) 12/20 15:09:27 Image size of job updated: 489152
+	245  -  MemoryUsage of job (MB)
+	250000  -  ResidentSetSize of job (KB)
+...
+005 (066.1787.000) 12/20 15:09:27 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	140  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	140  -  Total Bytes Sent By Job
+	9688  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       19       75    887940 
+	   Memory (MB)          :      245      245       256 
+...

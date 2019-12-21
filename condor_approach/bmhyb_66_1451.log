@@ -1765,3 +1765,39 @@
     startd address: <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=2702_ecfc_4>
     starter address: <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=3634_3b4d_548>
 ...
+022 (066.1451.000) 12/20 14:54:23 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_5@omearalab9 <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=2702_ecfc_4>
+...
+023 (066.1451.000) 12/20 14:54:27 Job reconnected to slot1_5@omearalab9
+    startd address: <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=2702_ecfc_4>
+    starter address: <10.129.213.175:9618?addrs=10.129.213.175-9618&noUDP&sock=3634_3b4d_548>
+...
+004 (066.1451.000) 12/20 15:18:53 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 55 03:44:18, Sys 0 00:05:19  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    42          42   1811553 
+	   Memory (MB)          :   245         245       256 
+...
+001 (066.1451.000) 12/20 15:20:26 Job executing on host: <10.129.169.104:9618?addrs=10.129.169.104-9618&noUDP&sock=2452_724f_4>
+...
+005 (066.1451.000) 12/20 15:20:27 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	140  -  Run Bytes Sent By Job
+	2422  -  Run Bytes Received By Job
+	140  -  Total Bytes Sent By Job
+	14532  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    13          42    203164 
+	   Memory (MB)          :   245         245       256 
+...
